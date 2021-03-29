@@ -54,6 +54,7 @@
                 type="button"
                 class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 aria-expanded="false"
+                @click="solutions = !solutions"
               >
                 <span>Solutions</span>
                 <!--
@@ -87,7 +88,8 @@
                   To: "opacity-0 -translate-y-1"
               -->
               <div
-                class="hidden md:block absolute z-10 top-full inset-x-0 transform shadow-lg bg-white"
+                v-show="!solutions"
+                class="md:block absolute z-10 top-full inset-x-0 transform shadow-lg bg-white"
               >
                 <div
                   class="max-w-7xl mx-auto grid gap-y-6 px-4 py-6 sm:grid-cols-2 sm:gap-8 sm:px-6 sm:py-8 lg:grid-cols-4 lg:px-8 lg:py-12 xl:py-16"
@@ -389,6 +391,7 @@
                 type="button"
                 class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 aria-expanded="false"
+                @click="more = !more"
               >
                 <span>More</span>
                 <!--
@@ -422,6 +425,7 @@
                   To: "opacity-0 -translate-y-1"
               -->
               <div
+                v-show="!more"
                 class="hidden md:block absolute z-10 top-full inset-x-0 transform shadow-lg"
               >
                 <div class="absolute inset-0 flex">
@@ -1017,6 +1021,12 @@
 <script>
 export default {
   name: 'Header',
+  data() {
+    return {
+      solutions: true,
+      more: false,
+    }
+  },
 }
 </script>
 
