@@ -1,13 +1,12 @@
-<!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-  <Popover class="relative bg-white">
+  <Popover class="relative bg-white m-3">
     <div class="absolute inset-0 shadow z-30 pointer-events-none" aria-hidden="true" />
     <div class="relative z-20">
       <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-5 sm:px-6 sm:py-4 lg:px-8 md:justify-start md:space-x-10">
         <div>
-          <a href="#" class="flex">
+          <a href="/" class="flex">
             <span class="sr-only">Threenine</span>
-            <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark.svg?color=orange&shade=600" alt="" />
+            <img class="h-16 w-auto sm:h-16" src="~/assets/img/logo.svg?color=orange&shade=600" alt="" />
           </a>
         </div>
         <div class="-mr-2 -my-2 md:hidden">
@@ -63,7 +62,7 @@
             </Popover>
             <Popover v-slot="{ open }">
               <PopoverButton :class="[open ? 'text-gray-900' : 'text-gray-500', 'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500']">
-                <span>About</span>
+                <span>Company</span>
                 <ChevronDownIcon :class="[open ? 'text-gray-600' : 'text-gray-400', 'ml-2 h-5 w-5 group-hover:text-gray-500']" aria-hidden="true" />
               </PopoverButton>
 
@@ -142,7 +141,7 @@
           <div class="pt-5 pb-6 px-5 sm:pb-8">
             <div class="flex items-center justify-between">
               <div>
-                <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark.svg?color=orange&shade=600" alt="Workflow" />
+                <img class="h-8 w-auto" src="~/assets/img/logo.svg?color=orange&shade=600" alt="Workflow" />
               </div>
               <div class="-mr-2">
                 <PopoverButton class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-orange-500">
@@ -178,8 +177,8 @@
 
               <a href="#" class="rounded-md text-base font-medium text-gray-900 hover:text-gray-700"> Blog </a>
 
-              <a href="#" class="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
-                +44 116 318 3635 </a>
+              <a href="tel:+44-116-318-3635" class="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
+                Contact Sales</a>
             </div>
             <div class="mt-6">
               <a href="#" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-orange-600 hover:bg-orange-700"> Sign up </a>
@@ -240,7 +239,7 @@ const callsToAction = [
   { name: '+44 116 318 3635', href: 'tel:+44-116-318-3635', icon: PhoneIcon },
 ]
 const company = [
-  { name: 'About', href: '#', icon: InformationCircleIcon },
+  { name: 'About', href: '/company/about', icon: InformationCircleIcon },
   { name: 'Customers', href: '#', icon: BuildingOfficeIcon },
   { name: 'Press', href: '#', icon: NewspaperIcon },
   { name: 'Careers', href: '#', icon: BriefcaseIcon },
