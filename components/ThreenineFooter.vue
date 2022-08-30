@@ -101,9 +101,8 @@ const navigation = {
     { name: 'Blog', href: '#' }
   ],
   legal: [
-    { name: 'Claim', href: '#' },
-    { name: 'Privacy', href: '#' },
-    { name: 'Terms', href: '#' },
+    { name: 'Privacy', href: '/privacy' },
+    { name: 'Terms', href: '/terms' },
   ],
   social: [
 
