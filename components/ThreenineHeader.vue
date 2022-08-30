@@ -128,8 +128,7 @@
             </Popover>
           </PopoverGroup>
           <div class="flex items-center md:ml-12">
-            <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900"> Sign in </a>
-            <a href="#" class="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-orange-600 hover:bg-orange-700"> Sign up </a>
+            <a href="#" class="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-orange-600 hover:bg-orange-700"> Contact </a>
           </div>
         </div>
       </div>
@@ -181,12 +180,7 @@
                 Contact Sales</a>
             </div>
             <div class="mt-6">
-              <a href="#" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-orange-600 hover:bg-orange-700"> Sign up </a>
-              <p class="mt-6 text-center text-base font-medium text-gray-500">
-                Existing customer?
-                {{ ' ' }}
-                <a href="#" class="text-orange-600 hover:text-orange-500"> Sign in </a>
-              </p>
+              <a href="#" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-orange-600 hover:bg-orange-700"> Contact </a>
             </div>
           </div>
         </div>
@@ -201,7 +195,6 @@ import {
   Bars3Icon,
   BookmarkSquareIcon,
   BriefcaseIcon,
-  BuildingOfficeIcon,
   CommandLineIcon,
   CheckCircleIcon,
   ComputerDesktopIcon,
@@ -226,7 +219,7 @@ const solutions = [
     icon: CommandLineIcon,
   },
   {
-    name: 'Data',
+    name: 'Threenine.Data',
     description: 'A Microsoft Entity Framework Core plugin providing Unit of work and repository pattern ',
     href: 'products/data',
     icon: CircleStackIcon,
@@ -236,11 +229,10 @@ const solutions = [
 const callsToAction = [
   { name: 'Watch Demo', href: '#', icon: PlayIcon },
   { name: 'View All Products', href: '#', icon: CheckCircleIcon },
-  { name: '+44 116 318 3635', href: 'tel:+44-116-318-3635', icon: PhoneIcon },
+  { name: 'Contact', href: 'tel:+44-116-318-3635', icon: PhoneIcon },
 ]
 const company = [
   { name: 'About', href: '/company/about', icon: InformationCircleIcon },
-  { name: 'Customers', href: '#', icon: BuildingOfficeIcon },
   { name: 'Press', href: '#', icon: NewspaperIcon },
   { name: 'Careers', href: '#', icon: BriefcaseIcon },
   { name: 'Privacy', href: '#', icon: ShieldCheckIcon },

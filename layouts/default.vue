@@ -3,15 +3,17 @@
   <div class="min-h-full">
   <threenine-header/>
     <slot />
+    <threenine-footer />
   </div>
   </html>
 </template>
 
 <script>
 import ThreenineHeader from "../components/ThreenineHeader";
+import ThreenineFooter from "../components/ThreenineFooter";
 export default {
   name: "default",
-  components: {ThreenineHeader}
+  components: {ThreenineFooter, ThreenineHeader}
 }
 </script>
 
