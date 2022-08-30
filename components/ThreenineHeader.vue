@@ -222,16 +222,16 @@ const solutions = [
   {
     name: 'API Template Pack',
     description: "Develop dotnet based REST API's quickly  ",
-    href: 'https://www.apitemplatepack.com',
+    href: 'products/apitemplatepack',
     icon: CommandLineIcon,
   },
   {
     name: 'Data',
     description: 'A Microsoft Entity Framework Core plugin providing Unit of work and repository pattern ',
-    href: '#',
+    href: 'products/data',
     icon: CircleStackIcon,
   },
-  { name: 'Stop Web Crawlers', description: "Your customers' data will be safe and secure.", href: 'https://wordpress.org/plugins/stop-web-crawlers/', icon: ShieldExclamationIcon }
+  { name: 'Stop Web Crawlers', description: "Your customers' data will be safe and secure.", href: 'products/stopwebcrawlers', icon: ShieldExclamationIcon }
 ]
 const callsToAction = [
   { name: 'Watch Demo', href: '#', icon: PlayIcon },

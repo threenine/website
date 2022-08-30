@@ -1,12 +1,11 @@
 <template>
-  <div>
-    <threenine-header></threenine-header>
+  <NuxtLayout>
     <nuxt-page></nuxt-page>
-  </div>
+  </NuxtLayout>>
 </template>
 <script>
-import ThreenineHeader from "./components/ThreenineHeader";
+
 export default {
-  components: {ThreenineHeader}
+
 }
 </script>
