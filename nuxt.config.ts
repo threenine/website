@@ -1,6 +1,11 @@
 import { defineNuxtConfig } from 'nuxt'
 
+// @ts-ignore
+import tailwindTypography from '@tailwindcss/typography'
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
+// @ts-ignore
+// @ts-ignore
+// @ts-ignore
 export default defineNuxtConfig({
     app: {
         head: {
@@ -13,6 +18,12 @@ export default defineNuxtConfig({
  typescript: {
      strict: true
  },
-    buildModules: ['@nuxtjs/tailwindcss']
+    buildModules: ['@nuxtjs/tailwindcss'],
+    tailwindcss: {
+        // @ts-ignore
+        config: {
+            plugins:  [tailwindTypography ]
+        }
+    }
 
 })
