@@ -16,7 +16,7 @@
     <div class="pt-12 sm:pt-16 lg:pt-20 max-w-prose">
       <h2 class="text-4xl font-bold tracking-tight text-orange-500 sm:text-5xl">Introduction</h2>
       <div class="mt-6 space-y-6 text-gray-500">
-        <p class="text-lg">We treat privacy and confidentiality very seriously at Threenine Consulting Limited and comply with all aspects of the UK’s data protection legislative framework, which includes the retained EU law version of the General Data Protection Regulation ((EU) 2016/679) (UK GDPR) and the Data Protection Act 2018 (DPA 2018) E. </p>
+        <p class="prose prose-lg">We treat privacy and confidentiality very seriously at Threenine Consulting Limited and comply with all aspects of the UK’s data protection legislative framework, which includes the retained EU law version of the General Data Protection Regulation ((EU) 2016/679) (UK GDPR) and the Data Protection Act 2018 (DPA 2018) E. </p>
         <p class="text-base leading-7"> In line with this we have developed the below privacy notice to detail exactly what personal information we collect and use. </p>
       </div>
     </div>
