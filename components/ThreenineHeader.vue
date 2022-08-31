@@ -215,33 +215,27 @@ const solutions = [
   {
     name: 'API Template Pack',
     description: "Develop dotnet based REST API's quickly  ",
-    href: 'products/apitemplatepack',
+    href: 'https://threenine.co.uk/products/apitemplatepack',
     icon: CommandLineIcon,
   },
   {
     name: 'Threenine.Data',
     description: 'A Microsoft Entity Framework Core plugin providing Unit of work and repository pattern ',
-    href: 'products/data',
+    href: 'https://threenine.co.uk/products/data',
     icon: CircleStackIcon,
   },
-  { name: 'Stop Web Crawlers', description: "Your customers' data will be safe and secure.", href: 'products/stopwebcrawlers', icon: ShieldExclamationIcon }
+  { name: 'Stop Web Crawlers', description: "Your customers' data will be safe and secure.", href: 'https://threenine.co.uk/products/stopwebcrawlers', icon: ShieldExclamationIcon }
 ]
 const callsToAction = [
-  { name: 'Watch Demo', href: '#', icon: PlayIcon },
-  { name: 'View All Products', href: '#', icon: CheckCircleIcon },
   { name: 'Contact', href: 'tel:+44-116-318-3635', icon: PhoneIcon },
 ]
 const company = [
-  { name: 'About', href: '/company/about', icon: InformationCircleIcon },
-  { name: 'Press', href: '#', icon: NewspaperIcon },
-  { name: 'Careers', href: '#', icon: BriefcaseIcon },
-  { name: 'Privacy', href: '#', icon: ShieldCheckIcon },
+  { name: 'About', href: 'https://threenine.co.uk//company/about', icon: InformationCircleIcon },
+  { name: 'Privacy', href: 'https://threenine.co.uk/privacy', icon: ShieldCheckIcon },
 ]
 const resources = [
-  { name: 'Community', href: '#', icon: UserGroupIcon },
-  { name: 'Partners', href: '#', icon: GlobeAltIcon },
-  { name: 'Guides', href: '#', icon: BookmarkSquareIcon },
-  { name: 'Webinars', href: '#', icon: ComputerDesktopIcon },
+  { name: 'Blog', href: '#', icon: UserGroupIcon },
+
 ]
 const blogPosts = [
   {

@@ -21,6 +21,10 @@ export default defineNuxtConfig({
         config: {
             plugins:  [tailwindTypography ]
         }
-    }
+    },
+    modules: ['nuxt-schema-org'],
+    schemaOrg: {
+        canonicalHost: 'https://threenine.co.uk',
+    },
 
 })

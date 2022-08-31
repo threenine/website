@@ -8,13 +8,31 @@
   </html>
 </template>
 
-<script>
-import ThreenineHeader from "../components/ThreenineHeader";
-import ThreenineFooter from "../components/ThreenineFooter";
-export default {
-  name: "default",
-  components: {ThreenineFooter, ThreenineHeader}
-}
+<script lang="ts" setup>
+useSchemaOrg([
+    defineWebSite({
+      name: "threenine.co.uk",
+      publisher: 'Threenine Consulting Limited'
+    }),
+    defineOrganization({
+      name: "Threenine Consulting Limited",
+      logo: '/assets/img/logo.svg',
+      sameAs: [
+          'https://twitter.com/threenine39',
+          'https://github.com/threenine'
+      ]
+    }),
+    defineLocalBusiness({
+      name: 'Threenine Consulting Limited',
+      address:{
+        streetAddress: '99 Wey Hill',
+        addressLocality: 'Haslemere',
+        addressRegion: 'Surrey',
+        postalCode: 'GU27 1HT',
+        addressCountry: 'UK'
+      }
+    })
+])
 </script>
 
 <style scoped>
