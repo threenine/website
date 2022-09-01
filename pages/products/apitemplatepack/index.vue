@@ -31,10 +31,10 @@
         </div>
         <div class="mt-8 lg:mt-0">
           <div class="mx-auto max-w-prose text-base lg:max-w-none">
-            <p class="text-lg text-gray-500">When developing dotnet REST API Microservices there is always a lot of boiler plate and configuration code required before developers can focus on
+            <p class="prose prose-md text-gray-500">When developing dotnet REST API Microservices there is always a lot of boiler plate and configuration code required before developers can focus on
             implementing the logic that the service requires.</p>
           </div>
-          <div class="prose prose-orange mx-auto mt-5 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none">
+          <div class="prose prose-md mx-auto mt-5 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none">
             <p>The API Template Pack aims to minimise this effort, by enabling you to quickly generate new service stubs quickly and easily.</p>
             <p>The API Template pack provides an opinionated implementation guide to making use of popular leading .net framework based tools and utilities to assist developers to quickly and efficiently develop secure, stable and resilient REST API’s.</p>
             <p>The API Template pack helps to steer teams to implementing a number of best practices and common design patterns including</p>
@@ -43,10 +43,11 @@
               <li>REPR Design Pattern</li>
               <li>API Design Patterns</li>
               <li>API Design Principles</li>
-              <li>DEVOPS</li>
+              <li>Devops</li>
             </ul>
-            <h3>How the API Template Helps</h3>
-            <p>Creating a resilient, stable and secure REST API’s is a difficult task, and many of the tasks you’ll need to perform are quite repetitive and can be error prone if completed incorrectly. The API Template pack aims to minimise the need to carry out these tasks, enabling you to only focus on the tasks that add real business value quickly.</p>
+            <h3 class="mt-2 text-2xl font-bold leading-8 tracking-tight text-orange-500 sm:text-3xl">How the API Template Helps</h3>
+            <p>Creating a resilient, stable and secure REST API’s is a difficult task, and many of the tasks you’ll need to perform are quite repetitive and can be error prone if completed incorrectly.</p>
+            <p> The API Template pack aims to minimise the need to carry out these tasks, enabling you to only focus on the tasks that add real business value quickly.</p>
           </div>
         </div>
       </div>
@@ -55,5 +56,10 @@
 </template>
 
 <script setup>
+
+
+definePageMeta({
+  title: 'API Template Pack'
+})
 import { LinkIcon } from '@heroicons/vue/20/solid/index.js'
 </script>

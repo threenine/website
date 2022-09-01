@@ -4,10 +4,10 @@
     <div class="relative z-20">
       <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-5 sm:px-6 sm:py-4 lg:px-8 md:justify-start md:space-x-10">
         <div>
-          <a href="/" class="flex">
+          <nuxt-link to="/" class="flex">
             <span class="sr-only">Threenine</span>
-            <img class="h-16 w-auto sm:h-16" src="~/assets/img/logo.svg?color=orange&shade=600" alt="" />
-          </a>
+            <img class="h-16 w-auto sm:h-16" src="~/assets/img/logo.svg?color=orange&shade=600" alt="threenine.co.uk" />
+          </nuxt-link>
         </div>
         <div class="-mr-2 -my-2 md:hidden">
           <PopoverButton class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-orange-500">
@@ -26,7 +26,7 @@
               <transition enter-active-class="transition ease-out duration-200" enter-from-class="opacity-0 -translate-y-1" enter-to-class="opacity-100 translate-y-0" leave-active-class="transition ease-in duration-150" leave-from-class="opacity-100 translate-y-0" leave-to-class="opacity-0 -translate-y-1">
                 <PopoverPanel class="hidden md:block absolute z-10 top-full inset-x-0 transform shadow-lg bg-white">
                   <div class="max-w-7xl mx-auto grid gap-y-6 px-4 py-6 sm:grid-cols-2 sm:gap-8 sm:px-6 sm:py-8 lg:grid-cols-4 lg:px-8 lg:py-12 xl:py-16">
-                    <a v-for="item in solutions" :key="item.name" :href="item.href" class="-m-3 p-3 flex flex-col justify-between rounded-lg hover:bg-gray-50">
+                    <nuxt-link v-for="item in solutions" :key="item.name" :to="item.href" class="-m-3 p-3 flex flex-col justify-between rounded-lg hover:bg-gray-50">
                       <div class="flex md:h-full lg:flex-col">
                         <div class="flex-shrink-0">
                           <span class="inline-flex items-center justify-center h-10 w-10 rounded-md bg-orange-500 text-white sm:h-12 sm:w-12">
@@ -45,7 +45,7 @@
                           <p class="mt-2 text-sm font-medium text-orange-600 lg:mt-4">Learn more <span aria-hidden="true">&rarr;</span></p>
                         </div>
                       </div>
-                    </a>
+                    </nuxt-link>
                   </div>
                   <div class="bg-gray-50">
                     <div class="max-w-7xl mx-auto space-y-6 px-4 py-5 sm:flex sm:space-y-0 sm:space-x-10 sm:px-6 lg:px-8">
@@ -215,16 +215,16 @@ const solutions = [
   {
     name: 'API Template Pack',
     description: "Develop dotnet based REST API's quickly  ",
-    href: 'https://threenine.co.uk/products/apitemplatepack',
+    href: 'apitemplatepack',
     icon: CommandLineIcon,
   },
   {
     name: 'Threenine.Data',
     description: 'A Microsoft Entity Framework Core plugin providing Unit of work and repository pattern ',
-    href: 'https://threenine.co.uk/products/data',
+    href: 'data',
     icon: CircleStackIcon,
   },
-  { name: 'Stop Web Crawlers', description: "Your customers' data will be safe and secure.", href: 'https://threenine.co.uk/products/stopwebcrawlers', icon: ShieldExclamationIcon }
+  { name: 'Stop Web Crawlers', description: "Your customers' data will be safe and secure.", href: 'stopwebcrawlers', icon: ShieldExclamationIcon }
 ]
 const callsToAction = [
   { name: 'Contact', href: 'tel:+44-116-318-3635', icon: PhoneIcon },

@@ -25,7 +25,7 @@
               <h3 class="text-base font-medium text-white">Products</h3>
               <ul role="list" class="mt-4 space-y-4">
                 <li v-for="item in navigation.products" :key="item.name">
-                  <a :href="item.href" class="text-base text-gray-300 hover:text-white">{{ item.name }}</a>
+                  <nuxt-link :to="item.href" class="text-base text-gray-300 hover:text-white">{{ item.name }}</nuxt-link>
                 </li>
               </ul>
             </div>
@@ -33,7 +33,7 @@
               <h3 class="text-base font-medium text-white">Support</h3>
               <ul role="list" class="mt-4 space-y-4">
                 <li v-for="item in navigation.support" :key="item.name">
-                  <a :href="item.href" class="text-base text-gray-300 hover:text-white">{{ item.name }}</a>
+                  <nuxt-link :to="item.href" class="text-base text-gray-300 hover:text-white">{{ item.name }}</nuxt-link>
                 </li>
               </ul>
             </div>
@@ -43,7 +43,7 @@
               <h3 class="text-base font-medium text-white">Company</h3>
               <ul role="list" class="mt-4 space-y-4">
                 <li v-for="item in navigation.company" :key="item.name">
-                  <a :href="item.href" class="text-base text-gray-300 hover:text-white">{{ item.name }}</a>
+                  <nuxt-link :to="item.href" class="text-base text-gray-300 hover:text-white">{{ item.name }}</nuxt-link>
                 </li>
               </ul>
             </div>
@@ -51,7 +51,7 @@
               <h3 class="text-base font-medium text-white">Legal</h3>
               <ul role="list" class="mt-4 space-y-4">
                 <li v-for="item in navigation.legal" :key="item.name">
-                  <a :href="item.href" class="text-base text-gray-300 hover:text-white">{{ item.name }}</a>
+                  <nuxt-link :to="item.href" class="text-base text-gray-300 hover:text-white">{{ item.name }}</nuxt-link>
                 </li>
               </ul>
             </div>
@@ -76,7 +76,7 @@
             <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
           </a>
         </div>
-        <a href="https://find-and-update.company-information.service.gov.uk/company/05608093" class="mt-8 text-base text-gray-400 md:order-1 md:mt-0">&copy; THREENINE CONSULTING LIMITED REGISTERED IN ENGLAND & WALES 05608093  VAT NO GB 900383850</a>
+        <nuxt-link to="https://find-and-update.company-information.service.gov.uk/company/05608093" class="mt-8 text-base text-gray-400 md:order-1 md:mt-0">&copy THREENINE CONSULTING LIMITED registered in england & wales 05608093  VAT no GB 900383850</nuxt-link>
       </div>
     </div>
   </footer>
@@ -87,9 +87,9 @@ import { defineComponent, h } from 'vue'
 
 const navigation = {
   products: [
-    { name: 'API Template Pack', href: '#' },
-    { name: 'Threenine.Data', href: '#' },
-    { name: 'Stop Web Crawlers', href: '#' },
+    { name: 'API Template Pack', href: 'apitemplatepack' },
+    { name: 'Threenine.Data', href: 'data' },
+    { name: 'Stop Web Crawlers', href: 'stopwebcrawlers' },
   ],
   support: [
     { name: 'Documentation', href: '#' },
@@ -101,8 +101,8 @@ const navigation = {
     { name: 'Blog', href: '#' }
   ],
   legal: [
-    { name: 'Privacy', href: '/privacy' },
-    { name: 'Terms', href: '/terms' },
+    { name: 'Privacy', href: 'privacy' },
+    { name: 'Terms', href: 'terms' },
   ],
   social: [
 
