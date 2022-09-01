@@ -24,7 +24,7 @@ export default defineNuxtConfig({
     tailwindcss: {
         // @ts-ignore
         config: {
-            plugins:  [tailwindTypography, '@tailwindcss/aspect-ratio' ]
+            plugins:  [tailwindTypography, '@tailwindcss/aspect-ratio', '@tailwindcss/forms' ]
         }
     },
     modules: ['nuxt-schema-org'],

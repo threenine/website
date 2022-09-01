@@ -1,19 +1,3 @@
-<!--
-  This example requires Tailwind CSS v2.0+
-
-  This example requires some changes to your config:
-
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
--->
 <template>
   <footer class="bg-gray-800" aria-labelledby="footer-heading">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
@@ -76,7 +60,7 @@
             <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
           </a>
         </div>
-        <nuxt-link to="https://find-and-update.company-information.service.gov.uk/company/05608093" class="mt-8 text-base text-gray-400 md:order-1 md:mt-0">&copy THREENINE CONSULTING LIMITED registered in England & Wales 05608093 VAT no GB 900383850</nuxt-link>
+        <nuxt-link to="https://find-and-update.company-information.service.gov.uk/company/05608093" class="mt-8 text-base text-gray-400 md:order-1 md:mt-0">&copy THREENINE CONSULTING LIMITED registered in England & Wales 05608093 VAT no. GB 900383850</nuxt-link>
       </div>
     </div>
   </footer>
@@ -87,7 +71,7 @@ import { defineComponent, h } from 'vue'
 
 const navigation = {
   products: [
-    { name: 'API Template Pack', href: 'apitemplatepack' },
+    { name: 'API Template Pack', href: 'products/apitemplatepack' },
     { name: 'Threenine.Data', href: 'data' },
     { name: 'Stop Web Crawlers', href: 'stopwebcrawlers' },
   ],
