@@ -2,11 +2,16 @@ import { defineNuxtConfig } from 'nuxt'
 
 // @ts-ignore
 import tailwindTypography  from '@tailwindcss/typography'
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
+
 export default defineNuxtConfig({
     app: {
         head: {
-            titleTemplate: '%s | threenine.co.uk',
+
+            meta: [{
+                hid: 'description',
+                name: 'description',
+                content: 'Agile software consultancy & Bespoke software developers delivering high performance digital products'
+            }],
             link: [
                 {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
             ]
@@ -25,6 +30,7 @@ export default defineNuxtConfig({
     modules: ['nuxt-schema-org'],
     schemaOrg: {
         canonicalHost: 'https://threenine.co.uk',
+        position: 'head'
     },
 
 })

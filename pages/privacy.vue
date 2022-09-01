@@ -1,4 +1,5 @@
 <template>
+  <div>
   <div class="relative bg-orange-500 ">
     <div class="absolute inset-0">
       <img class="h-full w-full object-cover" src="~/assets/img/privacy.jpg" alt="threenine.co.uk privacy policy" />
@@ -246,12 +247,16 @@
       </div>
     </div>
   </div>
+  </div>
 </template>
 
-<script>
-export default {
-  name: "privacy"
-}
+<script lang="ts" setup>
+import {definePageMeta} from "#imports";
+
+definePageMeta({
+  title: 'Privacy'
+})
+
 </script>
 
 <style scoped>

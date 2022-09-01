@@ -9,6 +9,14 @@
 </template>
 
 <script lang="ts" setup>
+
+const route = useRoute()
+
+useHead({
+  title: `${route.meta.title} - threenine.co.uk`,
+  meta: [{ name: 'og:title', content: `${route.meta.title} - threenine.co.uk`
+  }]
+})
 useSchemaOrg([
     defineWebSite({
       name: "threenine.co.uk",
@@ -24,7 +32,7 @@ useSchemaOrg([
     }),
     defineLocalBusiness({
       name: 'Threenine Consulting Limited',
-      address:{
+      address: {
         streetAddress: '99 Wey Hill',
         addressLocality: 'Haslemere',
         addressRegion: 'Surrey',
