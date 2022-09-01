@@ -215,16 +215,16 @@ const solutions = [
   {
     name: 'API Template Pack',
     description: "Develop dotnet based REST API's quickly  ",
-    href: 'apitemplatepack',
+    href: '../products/apitemplatepack',
     icon: CommandLineIcon,
   },
   {
     name: 'Threenine.Data',
     description: 'A Microsoft Entity Framework Core plugin providing Unit of work and repository pattern ',
-    href: 'data',
+    href: '../products/data',
     icon: CircleStackIcon,
   },
-  { name: 'Stop Web Crawlers', description: "Your customers' data will be safe and secure.", href: 'stopwebcrawlers', icon: ShieldExclamationIcon }
+  { name: 'Stop Web Crawlers', description: "Your customers' data will be safe and secure.", href: '../products/stopwebcrawlers', icon: ShieldExclamationIcon }
 ]
 const callsToAction = [
   { name: 'Contact', href: 'tel:+44-116-318-3635', icon: PhoneIcon },

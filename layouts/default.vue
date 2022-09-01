@@ -1,7 +1,7 @@
 <template>
   <html class="h-full">
   <div class="min-h-full">
-  <threenine-header/>
+   <threenine-header/>
     <slot />
     <threenine-footer />
   </div>

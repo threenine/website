@@ -71,8 +71,8 @@ import { defineComponent, h } from 'vue'
 
 const navigation = {
   products: [
-    { name: 'API Template Pack', href: 'products/apitemplatepack' },
-    { name: 'Threenine.Data', href: 'data' },
+    { name: 'API Template Pack', href: '../products/apitemplatepack' },
+    { name: 'Threenine.Data', href: '../products/data' },
     { name: 'Stop Web Crawlers', href: 'stopwebcrawlers' },
   ],
   support: [
@@ -84,7 +84,7 @@ const navigation = {
     { name: 'Blog', href: '#' }
   ],
   legal: [
-    { name: 'Privacy', href: 'privacy' },
+    { name: 'Privacy', href: '../privacy' },
     { name: 'Terms', href: 'terms' },
   ],
   social: [
