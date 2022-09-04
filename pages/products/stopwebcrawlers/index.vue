@@ -4,7 +4,7 @@
       <div class="absolute top-0 bottom-0 left-3/4 hidden w-screen bg-gray-50 lg:block" />
       <div class="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
         <div>
-          <h2 class="mt-2 text-3xl font-bold leading-8 tracking-tight text-orange-500 sm:text-4xl">Threenine.Data</h2>
+          <h2 class="mt-2 text-3xl font-bold leading-8 tracking-tight text-orange-500 sm:text-4xl">Stop Web Crawlers</h2>
         </div>
       </div>
       <div class="mt-8 lg:grid lg:grid-cols-2 lg:gap-8 ">
@@ -20,7 +20,7 @@
           <div class="relative mx-auto max-w-prose text-base lg:max-w-none ">
             <figure>
               <div class="aspect-w-12 aspect-h-7 lg:aspect-none ">
-                <img class="rounded-lg object-cover object-center" src="~/assets/img/stopwebcrawlers.svg" alt="API Template Pack" width="1184" height="1376" />
+                <img class="rounded-lg object-cover object-center" src="~/assets/img/stop-web-crawler.png" alt="Stop Web Crawlers" width="1184" height="1376" />
               </div>
               <figcaption class="mt-3 flex text-sm text-gray-500">
                 <LinkIcon class="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
