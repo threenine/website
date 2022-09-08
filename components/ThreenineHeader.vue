@@ -230,11 +230,11 @@ const callsToAction = [
   { name: 'Contact', href: 'tel:+44-116-318-3635', icon: PhoneIcon },
 ]
 const company = [
-  { name: 'About', href: 'https://threenine.co.uk//company/about', icon: InformationCircleIcon },
-  { name: 'Privacy', href: 'https://threenine.co.uk/privacy', icon: ShieldCheckIcon },
+  { name: 'About', href: '../about', icon: InformationCircleIcon },
+  { name: 'Privacy', href: '../privacy', icon: ShieldCheckIcon },
 ]
 const resources = [
-  { name: 'Blog', href: '#', icon: UserGroupIcon },
+  { name: 'Blog', href: '../blog', icon: UserGroupIcon },
 
 ]
 const blogPosts = [

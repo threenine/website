@@ -73,19 +73,19 @@ const navigation = {
   products: [
     { name: 'API Template Pack', href: '../products/apitemplatepack' },
     { name: 'Threenine.Data', href: '../products/data' },
-    { name: 'Stop Web Crawlers', href: 'stopwebcrawlers' },
+    { name: 'Stop Web Crawlers', href: '../products/stopwebcrawlers' },
   ],
   support: [
     { name: 'Documentation', href: '#' },
     { name: 'Guides', href: '#' },
   ],
   company: [
-    { name: 'About', href: '#' },
-    { name: 'Blog', href: '#' }
+    { name: 'About', href: '../about' },
+    { name: 'Blog', href: '../blog' }
   ],
   legal: [
     { name: 'Privacy', href: '../privacy' },
-    { name: 'Terms', href: 'terms' },
+    { name: 'Terms', href: '../terms' },
   ],
   social: [
 
