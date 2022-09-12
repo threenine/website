@@ -24,7 +24,7 @@
               </div>
               <figcaption class="mt-3 flex text-sm text-gray-500">
                 <LinkIcon class="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
-                <span class="ml-2"><a href="https://www.apitemplatepack.com" target="_blank">apitemplatepack.com</a></span>
+                <span class="ml-2"><a href="https://www.threeninedata.com" target="_blank">threeninedata.com</a></span>
               </figcaption>
             </figure>
           </div>

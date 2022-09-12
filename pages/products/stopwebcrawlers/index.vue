@@ -31,23 +31,18 @@
         </div>
         <div class="mt-8 lg:mt-0">
           <div class="mx-auto max-w-prose text-base lg:max-w-none">
-            <p class="prose prose-md text-gray-500">When developing dotnet REST API Microservices there is always a lot of boiler plate and configuration code required before developers can focus on
-              implementing the logic that the service requires.</p>
+            <p class="prose prose-md text-gray-500 mb-2">Countless surveys over the years have revealed that at least figures between <em><strong>55 - 70% of traffic to websites could
+              bots</strong></em>. Bot traffic is a term that, describes any non-human traffic to a website or an app. Although The term bot traffic often carries
+              a negative connotation, but in reality bot traffic isn’t necessarily good or bad; it all depends on the
+              purpose of the bots.</p>
+            <p class="prose prose-md text-gray-500 mb-2">Some bots are essential for useful services such as search engines and digital assistants (e.g. Google, Bing Siri, Alexa).
+              Most companies welcome these sorts of bots on their sites. However, most other bots can be malicious, for example those used for the purposes of credential stuffing,
+              data scraping, and launching DDoS attacks. Even some of the more benign ‘bad’ bots, such as unauthorized web crawlers,
+              can be a nuisance because they can disrupt site analytics and generate click fraud.</p>
+
           </div>
           <div class="prose prose-md mx-auto mt-5 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none">
-            <p>The API Template Pack aims to minimise this effort, by enabling you to quickly generate new service stubs quickly and easily.</p>
-            <p>The API Template pack provides an opinionated implementation guide to making use of popular leading .net framework based tools and utilities to assist developers to quickly and efficiently develop secure, stable and resilient REST API’s.</p>
-            <p>The API Template pack helps to steer teams to implementing a number of best practices and common design patterns including</p>
-            <ul role="list">
-              <li>Vertical Slice Architecture</li>
-              <li>REPR Design Pattern</li>
-              <li>API Design Patterns</li>
-              <li>API Design Principles</li>
-              <li>Devops</li>
-            </ul>
-            <h3 class="mt-2 text-2xl font-bold leading-8 tracking-tight text-orange-500 sm:text-3xl">How the API Template Helps</h3>
-            <p>Creating a resilient, stable and secure REST API’s is a difficult task, and many of the tasks you’ll need to perform are quite repetitive and can be error prone if completed incorrectly.</p>
-            <p> The API Template pack aims to minimise the need to carry out these tasks, enabling you to only focus on the tasks that add real business value quickly.</p>
+            <p class="prose prose-md text-gray-500 mb-2"></p>
           </div>
         </div>
       </div>
