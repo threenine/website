@@ -12,8 +12,8 @@
     "nuxt-schema-org": "^1.1.0-beta.1"
   },
   "dependencies": {
-    "@headlessui/vue": "^1.6.7",
-    "@heroicons/vue": "^2.0.8",
-    "@tailwindcss/typography": "^0.5.4"
+    "@headlessui/vue": "^1.7.2",
+    "@heroicons/vue": "^2.0.11",
+    "@tailwindcss/typography": "^0.5.7"
   }
 }
