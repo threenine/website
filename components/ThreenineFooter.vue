@@ -84,8 +84,8 @@ const navigation = {
     { name: 'Blog', href: '../blog' }
   ],
   legal: [
-    { name: 'Privacy', href: '../privacy' },
-    { name: 'Terms', href: '../terms' },
+    { name: 'Privacy', href: '../legal/privacy' },
+    { name: 'Terms', href: '../legal/terms' },
   ],
   social: [
 

@@ -20,7 +20,7 @@ export default defineNuxtConfig({
     tailwindcss: {
         // @ts-ignore
         config: {
-            plugins:  ['@tailwindcss/typography', '@tailwindcss/aspect-ratio', '@tailwindcss/forms' ]
+            plugins:  [ require('@tailwindcss/typography'), '@tailwindcss/aspect-ratio', '@tailwindcss/forms']
         }
     },
     modules: ['nuxt-schema-org'],

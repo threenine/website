@@ -231,7 +231,7 @@ const callsToAction = [
 ]
 const company = [
   { name: 'About', href: '../about', icon: InformationCircleIcon },
-  { name: 'Privacy', href: '../privacy', icon: ShieldCheckIcon },
+  { name: 'Privacy', href: '../legal/privacy', icon: ShieldCheckIcon },
 ]
 const resources = [
   { name: 'Blog', href: '../blog', icon: UserGroupIcon },
