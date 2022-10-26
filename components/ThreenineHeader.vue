@@ -224,7 +224,7 @@ const solutions = [
     href: '../products/data',
     icon: CircleStackIcon,
   },
-  { name: 'Stop Web Crawlers', description: "Your customers' data will be safe and secure.", href: '../products/stopwebcrawlers', icon: ShieldExclamationIcon }
+
 ]
 const callsToAction = [
   { name: 'Contact', href: 'tel:+44-116-318-3635', icon: PhoneIcon },

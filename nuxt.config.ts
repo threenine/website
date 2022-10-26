@@ -1,3 +1,4 @@
+import {defineNuxtConfig} from "nuxt";
 
 export default defineNuxtConfig({
     app: {
@@ -20,7 +21,7 @@ export default defineNuxtConfig({
     tailwindcss: {
         // @ts-ignore
         config: {
-            plugins:  [ require('@tailwindcss/typography'), '@tailwindcss/aspect-ratio', '@tailwindcss/forms']
+            plugins:  [ require('@tailwindcss/typography'), require('@tailwindcss/aspect-ratio'), require('@tailwindcss/forms')]
         }
     },
     modules: ['nuxt-schema-org'],
