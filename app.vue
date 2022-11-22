@@ -3,9 +3,7 @@
     <nuxt-page></nuxt-page>
   </nuxt-layout>
 </template>
-<script>
+<script lang="ts" setup>
 
-export default {
 
-}
 </script>

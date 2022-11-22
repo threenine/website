@@ -1,5 +1,3 @@
-import {defineNuxtConfig} from "nuxt";
-
 export default defineNuxtConfig({
     app: {
         head: {
@@ -14,17 +12,24 @@ export default defineNuxtConfig({
             ]
         },
     },
- typescript: {
-     strict: true
- },
-    buildModules: ['@nuxtjs/tailwindcss'],
+    typescript: {
+        strict: true
+    },
     tailwindcss: {
-        // @ts-ignore
         config: {
-            plugins:  [ require('@tailwindcss/typography'), require('@tailwindcss/aspect-ratio'), require('@tailwindcss/forms')]
+            plugins: [ require('@tailwindcss/typography'), require('@tailwindcss/aspect-ratio'), require('@tailwindcss/forms')],
+            content: [
+                `components/**/*.{vue,js}`,
+                `layouts/**/*.vue`,
+                `pages/**/*.vue`,
+                `composables/**/*.{js,ts}`,
+                `plugins/**/*.{js,ts}`,
+                `App.{js,ts,vue}`,
+                `app.{js,ts,vue}`
+            ]
         }
     },
-    modules: ['nuxt-schema-org'],
+    modules: ['nuxt-schema-org', '@nuxtjs/tailwindcss'],
     schemaOrg: {
         canonicalHost: 'https://threenine.co.uk',
         position: 'head'
