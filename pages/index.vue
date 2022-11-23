@@ -52,11 +52,8 @@
   </div>
 </template>
 
-<script>
+<script lang="ts" setup>
 
-export default {
-  name: "Index",
-}
 </script>
 
 <style scoped>

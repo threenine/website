@@ -57,11 +57,13 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 
 
 definePageMeta({
-  title: 'API Template Pack'
+  title: 'API Template Pack',
+  key: (route) => route.fullPath,
+
 })
 import { LinkIcon } from '@heroicons/vue/20/solid/index.js'
 </script>

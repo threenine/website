@@ -4,10 +4,14 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "test": "vitest run --coverage"
   },
   "devDependencies": {
-    "nuxt": "3.0.0"
+    "@vitest/coverage-c8": "^0.25.3",
+    "c8": "^7.12.0",
+    "nuxt": "3.0.0",
+    "vitest": "^0.25.3"
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.2",
