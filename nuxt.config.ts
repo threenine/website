@@ -1,3 +1,4 @@
+import Icons from 'unplugin-icons/vite'
 export default defineNuxtConfig({
     app: {
         head: {
@@ -28,6 +29,14 @@ export default defineNuxtConfig({
                 `app.{js,ts,vue}`
             ]
         }
+    },
+    vite: {
+        plugins: [
+            Icons({
+                // the feature below is experimental ⬇️
+                autoInstall: true
+            })
+        ]
     },
     modules: ['nuxt-schema-org', '@nuxtjs/tailwindcss'],
     schemaOrg: {
