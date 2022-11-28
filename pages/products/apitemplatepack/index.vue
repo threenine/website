@@ -27,7 +27,7 @@
                 <img class="rounded-lg object-cover object-center shadow-lg" src="~/assets/img/apitemplatepack.svg"
                      alt="API Template Pack" width="1184" height="1376"/>
               </div>
-              <figcaption class="mt-3 flex text-sm text-gray-500">
+              <figcaption class="mt-3 flex text-sm  text-gray-500">
                 <div class="hover:text-orange-700">
                   <material-symbols-link class="h-5 w-5 flex-none inline" aria-hidden="true"/>
                   <span class="ml-2 mx-2 "><a href="https://www.apitemplatepack.com"
