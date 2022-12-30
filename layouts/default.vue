@@ -9,7 +9,7 @@
 </template>
 
 <script lang="ts" setup>
-
+import ThreenineFooter from "~/components/facets/footer/ThreenineFooter.vue";
 const route = useRoute()
 
 useHead({
