@@ -72,7 +72,7 @@ import { defineComponent, h } from 'vue'
 const navigation = {
   products: [
     { name: 'API Template Pack', href: '../products/apitemplatepack' },
-    { name: 'Threenine.Data', href: '../products/data' },
+
 
   ],
   support: [
@@ -80,8 +80,7 @@ const navigation = {
     { name: 'Guides', href: '#' },
   ],
   company: [
-    { name: 'About', href: '../about' },
-    { name: 'Blog', href: '../blog' }
+
   ],
   legal: [
     { name: 'Privacy', href: '../legal/privacy' },

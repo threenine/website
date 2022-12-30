@@ -97,31 +97,7 @@
                         </ul>
                       </div>
                     </nav>
-                    <div class="bg-gray-50 px-4 py-8 sm:py-12 sm:px-6 lg:px-8 xl:pl-12">
-                      <div>
-                        <h3 class="text-base font-medium text-gray-500">From the blog</h3>
-                        <ul role="list" class="mt-6 space-y-6">
-                          <li v-for="post in blogPosts" :key="post.id" class="flow-root">
-                            <a :href="post.href" class="-m-3 p-3 flex rounded-lg hover:bg-gray-100">
-                              <div class="hidden sm:block flex-shrink-0">
-                                <img class="w-32 h-20 object-cover rounded-md" :src="post.imageUrl" alt="" />
-                              </div>
-                              <div class="w-0 flex-1 sm:ml-8">
-                                <h4 class="text-base font-medium text-gray-900 truncate">
-                                  {{ post.name }}
-                                </h4>
-                                <p class="mt-1 text-sm text-gray-500">
-                                  {{ post.preview }}
-                                </p>
-                              </div>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="mt-6 text-sm font-medium">
-                        <a href="#" class="text-orange-600 hover:text-orange-500"> View all posts <span aria-hidden="true">&rarr;</span></a>
-                      </div>
-                    </div>
+
                   </div>
                 </PopoverPanel>
               </transition>
@@ -218,12 +194,6 @@ const solutions = [
     href: '../products/apitemplatepack',
     icon: CommandLineIcon,
   },
-  {
-    name: 'Threenine.Data',
-    description: 'A Microsoft Entity Framework Core plugin providing Unit of work and repository pattern ',
-    href: '../products/data',
-    icon: CircleStackIcon,
-  },
 
 ]
 const callsToAction = [
@@ -234,7 +204,7 @@ const company = [
   { name: 'Privacy', href: '../legal/privacy', icon: ShieldCheckIcon },
 ]
 const resources = [
-  { name: 'Blog', href: '../blog', icon: UserGroupIcon },
+
 
 ]
 const blogPosts = [

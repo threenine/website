@@ -38,7 +38,7 @@ export default defineNuxtConfig({
             })
         ]
     },
-    modules: ['nuxt-schema-org', '@nuxtjs/tailwindcss'],
+    modules: ['nuxt-schema-org', '@nuxtjs/tailwindcss', '@nuxt/content'],
     schemaOrg: {
         canonicalHost: 'https://threenine.co.uk',
         position: 'head'
