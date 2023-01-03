@@ -48,27 +48,26 @@
             </figure>
           </div>
         </div>
+       <!-- mt-5 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none -->
         <div class="mt-8 lg:mt-0">
-          <div class="mx-auto max-w-prose lg:max-w-none">
-            <p class="prose prose-md text-gray-500 mb-2">Over the past few years there has been an explosion in the
+          <div class="prose prose-md mx-auto max-w-prose lg:max-w-none text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none">
+            <p>Over the past few years there has been an explosion in the
               usage of API <i>(Application Programmeable Interface)</i> which are the interfaces that software apps use
               to communicate with each other. </p>
-            <p class="prose prose-md text-gray-500 mb-2">A survey published in early 2022 revealed that 90.5% of
+            <p>A survey published in early 2022 revealed that 90.5% of
               developers responding were expecting to use APIs more or the same as in 2021, while only 3.8% think
               they’ll use fewer. The challenge is, as new APIs and protocols emerge, some aren’t supported by existing
               API management, development and security platforms. </p>
-            <p class="prose prose-md text-gray-500 mb-2">Software Development teams are struggling to make APIs use-able
+            <p>Software Development teams are struggling to make APIs use-able
               as a result, leading to duplicated efforts, wasted engineering hours, and missed revenue
               opportunities.</p>
-            <p class="prose prose-md text-gray-500 mb-2">An Effective, Secure and Scalable API are the lifeblood of
+            <p>An Effective, Secure and Scalable API are the lifeblood of
               innovative companies. Whether it’s internally delivering and consuming APIs to more rapidly and
               efficiently take new products to market, or monetizing consumer-facing APIs as a revenue stream, APIs are
               now the core building blocks of successful businesses. More and more more organizations make synchronous
               and asynchronous API ecosystems a focal point of their business, technical teams now more than ever need
               to embrace the oncoming API complexity without sacrificing security.</p>
-          </div>
-          <div class="prose prose-md mx-auto mt-5 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none">
-            <p>The API Template Pack aims to minimise this effort, by enabling you to quickly generate new service stubs
+             <p>The API Template Pack aims to minimise this effort, by enabling you to quickly generate new service stubs
               quickly and easily.</p>
             <p>The API Template pack provides an opinionated implementation guide to making use of popular leading .net
               framework based tools and utilities to assist developers to quickly and efficiently develop secure, stable
