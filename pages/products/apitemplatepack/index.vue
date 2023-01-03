@@ -48,12 +48,12 @@
             </figure>
           </div>
         </div>
+        <!--  class="mt-2 text-2xl font-bold leading-8 tracking-tight text-orange-500 sm:text-3xl"-->
        <!-- mt-5 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none -->
         <div class="mt-8 lg:mt-0">
-          <div class="prose prose-md mx-auto max-w-prose lg:max-w-none text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none">
+          <div class="prose prose-md mx-auto max-w-prose lg:max-w-none text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none prose-headings:text-orange-500 prose-headings:text-2xl">
             <p>Over the past few years there has been an explosion in the
-              usage of API <i>(Application Programmeable Interface)</i> which are the interfaces that software apps use
-              to communicate with each other. </p>
+              usage of API <i>(Application Programmeable Interface)</i> which are the interfaces that software apps use</p>
             <p>A survey published in early 2022 revealed that 90.5% of
               developers responding were expecting to use APIs more or the same as in 2021, while only 3.8% think
               they’ll use fewer. The challenge is, as new APIs and protocols emerge, some aren’t supported by existing
@@ -73,8 +73,7 @@
               framework based tools and utilities to assist developers to quickly and efficiently develop secure, stable
               and resilient REST API’s.</p>
 
-            <h3 class="mt-2 text-2xl font-bold leading-8 tracking-tight text-orange-500 sm:text-3xl">How the API
-              Template Helps</h3>
+            <h3>How the API Template Helps</h3>
             <p>Creating a resilient, stable and secure REST API’s is a difficult task, and many of the tasks you’ll need
               to perform are quite repetitive and can be error prone if completed incorrectly.</p>
             <p> The API Template pack aims to minimise the need to carry out these tasks, enabling you to only focus on
