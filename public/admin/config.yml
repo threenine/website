@@ -1,0 +1,60 @@
+backend:
+  name: github
+  repo: threenine/website
+publish_mode: editorial_workflow
+site_url: https://threenine.co.uk
+logo_url: https://geekiam.io/uploads/geekiam-logo.png
+display_url: https://threenine.co.uk
+show_preview_links: true
+media_folder: "static/uploads"
+public_folder: "/uploads"
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: geekiam-io
+    api_key: 775599314677177
+collections:
+    - name: "products"
+      label: "Products"
+      folder: "content/products"
+      format: 'frontmatter'
+      create: true
+      slug: "{{slug}}"
+      fields:
+          - {label: "Name", name: "name", widget: "string", required: true }
+          - {label: "Description", name: "description", widget: "string", required: true}
+          - {label: "Summary" , name: "summary", widget: "text" }
+          - label: "Links"
+            name: "links"
+            widget: "object"
+            fields:
+               [
+                { label: "Url", name: "url", widget: "string",  required: true },
+                { label: "Github", name: "github", widget: "string",  required: true },
+                { label: "Nuget", name: "nuget", widget: "string",  required: true },
+               ]
+          - label: "Twitter CardImage"
+            name: "cardImage"
+            widget: "object"
+            fields:
+              [
+               { label: "Image", name: "image", widget: "image" },
+               { label: "Description", name: "alt", widget: "string" },
+              ]
+          - {label: "Body", name: "body", widget: "markdown" }
+
+
+    - name: "authors"
+      label: "Authors"
+      folder: "content/authors"
+      create: true
+      slug: "{{slug}}"
+      identifier_field: "title"
+      fields:
+          - {label: "Github Username", name: "title", widget: "string", required: true, hint: "Github username" }
+          -  label: "Full name"
+             name: "name"
+             widget: "object"
+             fields:
+                - {label: "Firstname", name: "firstName", widget: "string", required: true}
+                - {label: "Lastname", name: "lastName", widget: "string", required: true}
