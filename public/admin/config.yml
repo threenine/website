@@ -33,8 +33,8 @@ collections:
                 { label: "Github", name: "github", widget: "string",  required: true },
                 { label: "Nuget", name: "nuget", widget: "string",  required: true },
                ]
-          - label: "Twitter CardImage"
-            name: "cardImage"
+          - label: "Product Image"
+            name: "productImage"
             widget: "object"
             fields:
               [
