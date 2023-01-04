@@ -29,7 +29,7 @@ collections:
             widget: "object"
             fields:
                [
-                { label: "Url", name: "url", widget: "string",  required: true },
+                { label: "Website", name: "website", widget: "string",  required: true },
                 { label: "Github", name: "github", widget: "string",  required: true },
                 { label: "Nuget", name: "nuget", widget: "string",  required: true },
                ]
