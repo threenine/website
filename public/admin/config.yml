@@ -3,7 +3,7 @@ backend:
   repo: threenine/website
 publish_mode: editorial_workflow
 site_url: https://threenine.co.uk
-logo_url: https://geekiam.io/uploads/geekiam-logo.png
+logo_url: https://threenine.co.uk/assets/img/threenine_tag.png
 display_url: https://threenine.co.uk
 show_preview_links: true
 media_folder: "static/uploads"
