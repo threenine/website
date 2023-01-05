@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   repo: threenine/website
 publish_mode: editorial_workflow
 site_url: https://threenine.co.uk
@@ -8,11 +8,6 @@ display_url: https://threenine.co.uk
 show_preview_links: true
 media_folder: "static/uploads"
 public_folder: "/uploads"
-media_library:
-  name: cloudinary
-  config:
-    cloud_name: threenine-co-uk
-    api_key: 896994212468486
 collections:
     - name: "products"
       label: "Products"
