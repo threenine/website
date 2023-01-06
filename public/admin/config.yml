@@ -15,7 +15,7 @@ collections:
       folder: "content/products"
       format: 'frontmatter'
       create: true
-      slug: "{{slug}}"
+      slug: "products/{{slug}}"
       fields:
           - {label: "Title", name: "title", widget: "string", required: true }
           - {label: "Slug", name: "slug", widget: "string", required: true }
