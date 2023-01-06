@@ -7,8 +7,8 @@ site_url: https://threenine.co.uk
 logo_url: https://threenine.co.uk/images/threenine_tag.png
 display_url: https://threenine.co.uk
 show_preview_links: true
-media_folder: "static/uploads"
-public_folder: "/uploads"
+media_folder: "public/images"
+public_folder: "/images"
 collections:
     - name: "products"
       label: "Products"
@@ -17,7 +17,7 @@ collections:
       create: true
       slug: "{{slug}}"
       fields:
-          - {label: "Name", name: "name", widget: "string", required: true }
+          - {label: "Title", name: "title", widget: "string", required: true }
           - {label: "Slug", name: "slug", widget: "string", required: true }
           - {label: "Description", name: "description", widget: "string", required: true}
           - {label: "Summary" , name: "summary", widget: "text" }
