@@ -17,7 +17,4 @@ productImage:
   image: /images/apipacklogo.png
   alt: sdfadsfasdf
 ---
-
-#﻿ Amazing grace
-
-a﻿sdfasdfasdfasdf
+ #﻿Amazing Product
