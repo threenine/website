@@ -1,6 +1,5 @@
 ---
 title: APi Template Pack
-slug: api-template-pack
 description: A amazing thing
 summary: blah blah blah
 links:
