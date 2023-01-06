@@ -191,7 +191,7 @@ const solutions = [
   {
     name: 'API Template Pack',
     description: "Develop dotnet based REST API's quickly  ",
-    href: '../products/apitemplatepack',
+    href: '../products/api-template-pack',
     icon: CommandLineIcon,
   },
 

@@ -17,10 +17,10 @@ const qc = await queryContent("products")
       <div class="mt-12 grid gap-16 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
         <div
             v-for="article in qc"
-            :key="article.slug"
+            :key="article.title"
             class="flex flex-col justify-between rounded-lg border border-gray-200 p-4"
         >
-          <nuxt-link :href="article.slug">
+          <nuxt-link :href="article._path">
             <p class="text-xl text-gray-900">{{ article.title }}</p>
             <p class="mt-3 text-gray-500">{{ article.description }}</p>
           </nuxt-link>
