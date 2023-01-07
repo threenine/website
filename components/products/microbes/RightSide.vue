@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 import {ContentLink} from "~/types/ContentLink";
-import MaterialSymbolsLink from '~icons/material-symbols/link'
-import RiGithubFill from '~icons/ri/github-fill'
-import SimpleIconsNuget from '~icons/simple-icons/nuget'
+import MaterialSymbolsLink from "~icons/material-symbols/link"
+import RiGithubFill from "~icons/ri/github-fill"
+import SimpleIconsNuget from "~icons/simple-icons/nuget"
 
 import {PropType} from "@vue/runtime-core";
 
@@ -31,19 +31,19 @@ import {PropType} from "@vue/runtime-core";
       <img class="rounded-lg object-cover object-center shadow-lg" :src="image.url"
            :alt="image.title" width="1184" height="1376"/>
     </div>
-    <figcaption class="mt-3 flex text-sm  text-gray-500">
-      <div class="hover:text-orange-700">
+    <figcaption class="mt-3 flex text-sm  text-orange-500 hover:text-orange-400">
+      <div >
         <material-symbols-link class="h-5 w-5 flex-none inline" aria-hidden="true"/>
         <span class="ml-2 mx-2 "><a :href="website.url"
                                     target="_blank">{{ website.title }}</a></span>
 
       </div>
-      <div class="hover:text-orange-700">
+      <div>
         <ri-github-fill class="h-5 w-5 flex-none inline" aria-hidden="true"/>
         <span class="ml-2 mx-2"><a :href="github.url"
                                    target="_blank">{{ github.title }}</a></span>
       </div>
-      <div class="hover:text-orange-700">
+      <div >
         <simple-icons-nuget class="h-5 w-5 flex-none inline" aria-hidden="true"/>
         <span class="ml-2 "><a :href="nuget.url"
                                target="_blank">{{ nuget.title }}</a></span>

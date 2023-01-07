@@ -39,7 +39,7 @@ to embrace the oncoming API complexity without sacrificing security.
 The API Template pack provides an opinionated implementation guide to making use of popular leading .net framework based
 tools and utilities to assist developers to quickly and efficiently develop secure, stable and resilient REST API’s.
 
-### How the API Template Helps
+ ### How the API Template Helps
 
 Creating a resilient, stable and secure REST API’s is a difficult task, and many of the tasks you’ll need to perform 
 are quite repetitive and can be error prone if completed incorrectly.
