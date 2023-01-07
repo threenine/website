@@ -26,20 +26,21 @@
               <transition enter-active-class="transition ease-out duration-200" enter-from-class="opacity-0 -translate-y-1" enter-to-class="opacity-100 translate-y-0" leave-active-class="transition ease-in duration-150" leave-from-class="opacity-100 translate-y-0" leave-to-class="opacity-0 -translate-y-1">
                 <PopoverPanel class="hidden md:block absolute z-10 top-full inset-x-0 transform shadow-lg bg-white">
                   <div class="max-w-7xl mx-auto grid gap-y-6 px-4 py-6 sm:grid-cols-2 sm:gap-8 sm:px-6 sm:py-8 lg:grid-cols-4 lg:px-8 lg:py-12 xl:py-16">
-                    <nuxt-link v-for="item in solutions" :key="item.name" :to="item.href" class="-m-3 p-3 flex flex-col justify-between rounded-lg hover:bg-gray-50">
+                    <nuxt-link v-for="item in products" :key="item.title" :to="item._path" class="-m-3 p-3 flex flex-col justify-between rounded-lg hover:bg-gray-50">
                       <div class="flex md:h-full lg:flex-col">
                         <div class="flex-shrink-0">
-                          <span class="inline-flex items-center justify-center h-10 w-10 rounded-md bg-orange-500 text-white sm:h-12 sm:w-12">
-                            <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
+                          <span class="inline-flex items-center justify-center h-10 w-10 rounded-md  text-white sm:h-12 sm:w-12">
+                          <img class="rounded-lg object-cover object-center shadow-lg" :src="item.productImage.url"
+                               :alt="item.title" />
                           </span>
                         </div>
                         <div class="ml-4 md:flex-1 md:flex md:flex-col md:justify-between lg:ml-0 lg:mt-4">
                           <div>
                             <p class="text-base font-medium text-gray-900">
-                              {{ item.name }}
+                              {{ item.title }}
                             </p>
                             <p class="mt-1 text-sm text-gray-500">
-                              {{ item.description }}
+                              {{ item.summary }}
                             </p>
                           </div>
                           <p class="mt-2 text-sm font-medium text-orange-600 lg:mt-4">Learn more <span aria-hidden="true">&rarr;</span></p>
@@ -128,7 +129,7 @@
             <div class="mt-6 sm:mt-8">
               <nav>
                 <div class="grid gap-7 sm:grid-cols-2 sm:gap-y-8 sm:gap-x-4">
-                  <a v-for="item in solutions" :key="item.name" :href="item.href" class="-m-3 flex items-center p-3 rounded-lg hover:bg-gray-50">
+                  <a v-for="item in products" :key="item.name" :href="item.href" class="-m-3 flex items-center p-3 rounded-lg hover:bg-gray-50">
                     <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-orange-500 text-white sm:h-12 sm:w-12">
                       <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
                     </div>
@@ -165,37 +166,25 @@
   </Popover>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { Popover, PopoverButton, PopoverGroup, PopoverPanel } from '@headlessui/vue'
 import {
   Bars3Icon,
-  BookmarkSquareIcon,
-  BriefcaseIcon,
-  CommandLineIcon,
-  CheckCircleIcon,
-  ComputerDesktopIcon,
-  CircleStackIcon,
-  GlobeAltIcon,
+
   InformationCircleIcon,
-  NewspaperIcon,
+
   PhoneIcon,
-  PlayIcon,
+
   ShieldCheckIcon,
-  ShieldExclamationIcon,
-  UserGroupIcon,
   XMarkIcon,
 } from '@heroicons/vue/24/outline/index.js'
 import { ChevronDownIcon } from '@heroicons/vue/20/solid/index.js'
 
-const solutions = [
-  {
-    name: 'API Template Pack',
-    description: "Develop dotnet based REST API's quickly  ",
-    href: '../products/api-template-pack',
-    icon: CommandLineIcon,
-  },
+const products = await queryContent("products")
+    .sort({ _file: -1, $numeric: true })
+    .find()
 
-]
+
 const callsToAction = [
   { name: 'Contact', href: 'tel:+44-116-318-3635', icon: PhoneIcon },
 ]

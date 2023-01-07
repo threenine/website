@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import RightSide from "~/components/products/facets/RightSide.vue";
+import RightSide from "~/components/products/microbes/RightSide.vue";
 
 </script>
 

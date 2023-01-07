@@ -1,8 +1,9 @@
 ---
-title: APi Template Pack
+title: API Template Pack
 slug: api-template-pack
 description: A amazing thing
-summary: blah blah blah
+summary: "opinionated implementation guide to making use of popular leading .net framework based tools and utilities to 
+assist developers to quickly and efficiently develop secure, stable and resilient REST API’s"
 links:
   website:
     title: apitemplatepack.com
