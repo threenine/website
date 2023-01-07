@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import RightSide from "~/components/products/facets/RightSide.vue";
+
 </script>
 
 <template>
@@ -26,7 +27,7 @@ import RightSide from "~/components/products/facets/RightSide.vue";
               <rect width="404" height="384" fill="url(#de316486-4a29-4312-bdfc-fbce2132a2c1)"/>
             </svg>
             <div class="relative mx-auto max-w-prose text-base lg:max-w-none">
-              <right-side></right-side>
+              <right-side :github="doc.links.github" :image="doc.productImage" :nuget="doc.links.nuget" :website="doc.links.website" ></right-side>
             </div>
           </div>
           <ContentRenderer :value="doc" class="mt-8 lg:mt-0 prose prose-md mx-auto max-w-prose lg:max-w-none text-gray-500 lg:col-start-1

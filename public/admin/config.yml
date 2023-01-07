@@ -48,8 +48,8 @@ collections:
             widget: "object"
             fields:
               [
-               { label: "Image", name: "image", widget: "image" },
-               { label: "Description", name: "alt", widget: "string" },
+               { label: "Image", name: "url", widget: "image" },
+               { label: "Description", name: "title", widget: "string" },
               ]
           - {label: "Body", name: "body", widget: "markdown" }
 

@@ -1,5 +1,6 @@
 ---
-title: API Template Pack
+title: APi Template Pack
+slug: api-template-pack
 description: A amazing thing
 summary: blah blah blah
 links:
@@ -13,8 +14,8 @@ links:
     title: threenine.ApiProject
     url: https://www.nuget.org/packages/threenine.ApiProject/
 productImage:
-  image: /images/apipacklogo.png
-  alt: sdfadsfasdf
+  url: /images/apipacklogo.png
+  title: sdfadsfasdf
 ---
 
 Over the past few years there has been an explosion in the usage of API *(Application Programmeable Interface)* which are the interfaces that software apps use.
