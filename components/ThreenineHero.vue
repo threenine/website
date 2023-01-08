@@ -21,7 +21,7 @@
                 <p class="mx-auto mt-6 max-w-lg text-center text-xl text-gray-200 sm:max-w-3xl">API Template Pack enables your software development teams to focus on functionality rather than composition</p>
                 <div class="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
                   <div class="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
-                    <a href="products/apitemplatepack" class="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-orange-700 shadow-sm hover:bg-orange-50 sm:px-8">Learn More</a>
+                    <a href="products/api-template-pack" class="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-orange-700 shadow-sm hover:bg-orange-50 sm:px-8">Learn More</a>
                     <a href="https://www.apitemplatepack.com" class="flex items-center justify-center rounded-md border border-transparent bg-orange-500 bg-opacity-90 px-4 py-3 text-base font-medium text-white shadow-sm hover:bg-opacity-100 sm:px-8">Get Started</a>
                   </div>
                 </div>
