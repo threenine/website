@@ -33,20 +33,19 @@ import {PropType} from "@vue/runtime-core";
     </div>
     <figcaption class="mt-3 flex text-sm  text-orange-500 hover:text-orange-400">
       <div class="md:flex-none flex-1" >
-        <material-symbols-link class="h-7 w-7 md:h-5 md:w-7  inline" aria-hidden="true"/>
-        <span class="ml-2 mx-2 "><a :href="website.url"
-                                    target="_blank" class="invisible md:visible">{{ website.title }}</a></span>
+        <a :href="website.url"
+           target="_blank">  <material-symbols-link class="h-7 w-7 md:h-5 md:w-7  inline" aria-hidden="true"/>
+        <span class="ml-2 mx-2 invisible md:visible">{{ website.title }}</span></a>
 
       </div>
       <div class="md:flex-none flex-1">
-        <ri-github-fill class="h-7 w-7 md:h-5 md:w-7  inline" aria-hidden="true"/>
-        <span class="ml-2 mx-2"><a :href="github.url" class="invisible md:visible"
-                                   target="_blank">{{ github.title }}</a></span>
+        <a :href="github.url" target="_blank"><ri-github-fill class="h-7 w-7 md:h-5 md:w-7  inline" aria-hidden="true"/>
+        <span class="ml-2 mx-2 invisible md:visible">{{ github.title }}</span></a>
       </div>
       <div class="md:flex-none flex-1">
-        <simple-icons-nuget class="h-7 w-7 md:h-5 md:w-7  inline" aria-hidden="true"/>
-        <span class="ml-2 "><a :href="nuget.url"
-                               target="_blank" class="invisible md:visible">{{ nuget.title }}</a></span>
+        <a :href="nuget.url"
+           target="_blank" >  <simple-icons-nuget class="h-7 w-7 md:h-5 md:w-7  inline" aria-hidden="true"/>
+        <span class="ml-2 invisible md:visible">{{ nuget.title }}</span></a>
       </div>
     </figcaption>
   </figure>
