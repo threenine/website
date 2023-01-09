@@ -190,7 +190,7 @@ const callsToAction = [
 ]
 const company = [
   { name: 'About', href: '../about', icon: InformationCircleIcon },
-  { name: 'Privacy', href: '../legal/privacy', icon: ShieldCheckIcon },
+  { name: 'Privacy', href: '../legals/privacy', icon: ShieldCheckIcon },
 ]
 const resources = [
 

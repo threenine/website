@@ -13,8 +13,8 @@ const navigation = {
 
 
   legal: [
-    {name: 'Privacy', href: '../legal/privacy'},
-    {name: 'Terms', href: '../legal/terms'},
+    {name: 'Privacy', href: '../legals/privacy'},
+    {name: 'Terms', href: '../legals/terms'},
   ],
 }
 </script>
