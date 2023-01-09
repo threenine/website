@@ -62,10 +62,10 @@ collections:
         - { label: "Title", name: "title", widget: "string", required: true }
         - { label: "Heading", name: "heading", widget: "string", required: true }
         - { label: "Description", name: "description", widget: "string", required: true }
-        - { label: "Summary" , name: "summary", widget: "text" }
+        - { label: "Summary" , name: "summary", widget: "string" }
         - { label: "Version", name: "version", widget: "string", required: true }
         - { label: "Version Date", name: "date", widget: "string", required: true }
-        - {label: "Body", name: "body", widget: "markdown" }
+        - { label: "Body", name: "body", widget: "markdown" }
         - label: "Banner Image"
           name: "bannerImage"
           widget: "object"
@@ -81,7 +81,7 @@ collections:
       slug: "{{dirname}}/{{slug}}"
       identifier_field: "title"
       fields:
-          - {label: "Github Username", name: "title", widget: "string", required: true, hint: "Github username" }
+          - { label: "Github Username", name: "title", widget: "string", required: true, hint: "Github username" }
           -  label: "Full name"
              name: "name"
              widget: "object"
