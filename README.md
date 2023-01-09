@@ -1,6 +1,8 @@
-# Nuxt 3 Minimal Starter
+# Threenine.co.uk Website 
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+The entire website is implemented using Nuxt 3 utilising the Netlify CMS and deployed to Netlify 
+
+Check out  [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more about Nuxt 3.
 
 ## Setup
 
