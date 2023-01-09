@@ -67,5 +67,38 @@ We may also collect, use and share Aggregated Data such as statistical or demogr
 We do not collect any Special Categories of Personal Data about you (this includes details about your race or ethnicity, religious or philosophical beliefs, sex life, sexual orientation, political opinions, trade union membership, information about your health, and genetic and biometric data).
 <p>&nbsp;</p> 
 
+### How we collect personal information
+
+We use different methods to collect data from and about you including through:
+<p>&nbsp;</p> 
+
+**Direct interactions.** You may give us your Identity and Contact Data by filling in forms or by corresponding with us by post, phone, email or otherwise. This includes personal data you provide when you:
+
+<p>&nbsp;</p> 
+
+* enquire about our products or services;
+* interact with us as a client or on behalf of a client (when we will also collect Transaction Data);
+* apply for employment or engagement as a contractor or user experience tester with us (when we will also collect Education and Experience Data as well as information about criminal convictions)
+* give us feedback or contact us.
+* create any account on our website (as applicable);
+* subscribe to any of our services or publications;
+* request marketing to be sent to you; or
+* enter any competition, promotion or survey we may operate.
+
+<p>&nbsp;</p> 
+
+**Automated technologies or interactions.** As you interact with our website, we will automatically collect Technical Data about your equipment, browsing actions and patterns. We collect this personal data by using cookies and other similar technologies. Please see our cookie policy below for further details.
+<p>&nbsp;</p> 
+
+**Third parties or publicly available sources.** We may receive personal data about you from various third parties (including public sources), which we may combine with or add to personal information you have directly provided to us, as set out below:
+
+<p>&nbsp;</p> 
+
+* Identity and Contact Data from publicly available sources such as Linked In, Companies House.
+* Contact data which we obtain by working with third party technical partners such as Lead Forensics who can provide corporate (but not personal) website visitor information based upon IP Address information, in combination with publicly available sources such as LinkedIn.
+* Technical Data from analytics providers such as Google Analytics, who may be based outside the UK;
+       
+
+
 
 
