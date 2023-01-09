@@ -57,7 +57,7 @@ collections:
       label: "Legals"
       folder: "content/legals"
       create: true
-      slug: "legals/{{slug}}"
+      slug: "{{dirname}}/{{slug}}"
       identifier_field: "title"
       fields:
         - { label: "Title", name: "title", widget: "string", required: true }

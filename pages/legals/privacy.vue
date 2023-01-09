@@ -35,7 +35,7 @@
     <div class="pt-12 sm:pt-16 lg:pt-20 max-w-prose">
       <h3 class="text-2xl font-bold tracking-tight text-orange-500 sm:text-2xl">Your personal Information</h3>
       <div class="mt-6 space-y-6 text-gray-500">
-        <p class="prose prose-base leading-7"> Your privacy is important to us and it is our policy that your personal information is private and confidential. This privacy statement details what data we collect from you and how we use it.
+        <p class="prose prose-base leading-7">
         </p>
         <p class="prose prose-base leading-7">We do not collect, use or disclose your personal information for any purposes other than those identified below, except as required by law.</p>
         <p class="prose prose-base leading-7">Please read this privacy statement before using the site or providing us with any personal information.</p>
