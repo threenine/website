@@ -22,5 +22,9 @@ productImage:
 
  The API Template Pack is a .net based REST API starter template to guide and assist Developers in developing REST Resource based API's & Microservices efficiently and productively.
 
+API Template Pack aims to speed up the development process and provide a secure, stable, and cross-platform solution for your business needs. 
+
+Features like high performance, fast development, fewer bugs, and an intuitive design, API Template Pack is the go-to choice for creating production-ready APIs with ease.
+
 
 
