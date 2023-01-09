@@ -44,11 +44,11 @@ Your privacy is important to us and it is our policy that your personal informat
  Please read this privacy statement before using the site or providing us with any personal information.
 <p>&nbsp;</p> 
 You are encouraged to review the privacy policy on a regular basis to make sure that you understand how any personal information you provide will be used.
-
+<p>&nbsp;</p> 
 ### Personal data & Information we collect
-
+<p>&nbsp;</p> 
 We may collect, use, store and transfer different kinds of personal data about you which we have grouped together in broad classifications as follows:
-
+<p>&nbsp;</p> 
 * **Identity Data** includes first name, maiden name, last name, social media account usernames or similar identifier, date of birth and gender.</li>
 * **Contact Data** includes billing address, delivery address, email address, social media account details and telephone numbers.
 * **Experience and Education Data** includes details of salary expectations, educational and professional qualifications, current and previous employment and work experience (as typically provided in a curriculum vitae).
