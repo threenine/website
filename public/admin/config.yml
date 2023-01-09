@@ -52,14 +52,16 @@ collections:
                { label: "Title", name: "title", widget: "string" },
               ]
           - {label: "Body", name: "body", widget: "markdown" }
+
     - name: "legals"
       label: "Legals"
       folder: "content/legals"
+      format: 'frontmatter'
       create: true
-      slug: "{{dirname}}/{{slug}}"
+      slug: "legals/{{slug}}"
       identifier_field: "title"
       fields:
-          - { label: "Title", name: "title", widget: "string", required: true }
+        - { label: "Title", name: "title", widget: "string", required: true }
 
 
     - name: "authors"
@@ -67,6 +69,7 @@ collections:
       folder: "content/authors"
       create: true
       slug: "{{dirname}}/{{slug}}"
+      format: 'frontmatter'
       identifier_field: "title"
       fields:
           - { label: "Github Username", name: "title", widget: "string", required: true, hint: "Github username" }
