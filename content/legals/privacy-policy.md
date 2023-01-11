@@ -97,6 +97,8 @@ We use different methods to collect data from and about you including through:
 * Identity and Contact Data from publicly available sources such as Linked In, Companies House.
 * Contact data which we obtain by working with third party technical partners such as Lead Forensics who can provide corporate (but not personal) website visitor information based upon IP Address information, in combination with publicly available sources such as LinkedIn.
 * Technical Data from analytics providers such as Google Analytics, who may be based outside the UK;
+
+
        
 
 
