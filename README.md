@@ -1,5 +1,7 @@
 # Threenine.co.uk Website 
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c1fb3bc8-b60a-4890-932b-ec3c77aca83d/deploy-status)](https://app.netlify.com/sites/ephemeral-empanada-f50440/deploys)
+
 The entire website is implemented using Nuxt 3 utilising the Netlify CMS and deployed to Netlify 
 
 Check out  [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more about Nuxt 3.
