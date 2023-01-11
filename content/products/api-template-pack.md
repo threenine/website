@@ -25,8 +25,7 @@ API Template Pack aims to speed up the development process and provide a secure,
 
 Features like high performance, fast development, fewer bugs, and an intuitive design, API Template Pack is the go-to choice for creating production-ready APIs with ease.
 
-A﻿PI Template assists developers in implement REST Resource based API utilising:
+API Template assists developers in implement REST Resource based API utilising:
 
-\*﻿ Vertical Slice Architecture
-
-\*﻿ REPR Pattern
+ * Vertical Slice Architecture
+ * REPR Pattern
