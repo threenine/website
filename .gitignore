@@ -9,3 +9,6 @@ dist
 coverage/*
 yarn.lock
 
+
+# Local Netlify folder
+.netlify
