@@ -142,7 +142,7 @@ In all cases, personal information is not otherwise sold or shared with any thir
 <p>&nbsp;</p> 
 
 ### Data Export
-
+<p>&nbsp;</p>
  Where it is reasonable for the operation and development of our business, your personal data may be transferred and stored outside of the UK. It may also be processed by any of our staff (including contractors), other parties who may be working on a project which your personal data is relevant to or our third-party technical partner, who may be located and operating outside of the UK. 
 <p>&nbsp;</p> 
  Where your personal data is to be transferred outside of the UK, we will ensure that either: 
@@ -154,3 +154,66 @@ In all cases, personal information is not otherwise sold or shared with any thir
 <p>&nbsp;</p> 
 
 
+### How long will your personal information be kept for
+<p>&nbsp;</p>
+If you have made an enquiry, called in or otherwise engaged with our sales team, registered for an event, or we have obtained your personal information from a third-party or publicly available source we will keep your personal information (Identity and Contact Data) for up to 36 months from the point at which you last have contact with us. After this time, this information will be anonymised so as to be no longer be personal to you and/or it will be deleted. 
+<p>&nbsp;</p>
+
+If you have provided personal information to us as part of our performance of a contract with you or a client that you represent, we will normally keep your personal information (Identity, Contact and Transaction Data) for up to 6 years from completion of the relevant project except where the limitation period in the contract is a longer period of time, in which case we will keep this personal information for that longer period of time. After this time it will be anonymised so as to be no longer personal to you and/or deleted. 
+<p>&nbsp;</p>
+If you have supplied personal information for marketing purposes (through registering for a newsletter for example) and you notify us that you no longer wish to receive these communications, we will only retain the personal information required to ensure that this request is complied with (typically email address). <p>&nbsp;</p>
+
+If you have supplied your information while checking in at our offices this (and the associated information about when you were there) will be kept for a period of one month before being deleted.
+
+Personal information supplied as part of a contract signature process will kept in line with the contract retention period, typically seven years from end of service provision.
+<p>&nbsp;</p>
+If you have supplied personal information in signing up to be a usability tester it will be kept only for as long as is necessary to facilitate the project in question, unless you have asked to be contacted in future about additional testing opportunities. In the case of having registered for future contact, your details will be retained until such point as you notify us that you no longer wish to be registered for this service. 
+<p>&nbsp;</p>
+If you have supplied personal information in applying for a vacancy it will be kept for 6 months after the end of the recruitment process for that role unless you have asked to be contacted in future about other such vacancies. In the case of having registered for future contact, your details will be retained until such point as you notify us otherwise.  
+<p>&nbsp;</p>
+
+### How you can update your personal information
+<p>&nbsp;</p>  
+
+If at any point you believe the information we hold about you is incorrect you can request to see this information and have it corrected, restricted or deleted by emailing us at privacy@threenine.co.uk. An unsubscribe option is additionally included in every marketing email you receive.
+<p>&nbsp;</p> 
+
+### Your right to a copy of your personal information (“subject access request”)
+<p>&nbsp;</p> 
+You may request us to provide you with any personal information we hold about you; provision of such information will be subject to 
+
+
+ * enquire about our products or services; 
+ * your request not being unfounded or excessive, in which case a charge may apply 
+ * the supply of appropriate evidence of your identity (for this purpose, we will usually accept a photocopy of your passport certified by a solicitor or bank plus an original copy of a utility bill showing your current address).
+<p>&nbsp;</p> 
+We may withhold personal information that you request to the extent permitted by law. 
+<p>&nbsp;</p> 
+       
+### Your right to erasure of your personal information
+<p>&nbsp;</p>
+In certain circumstances you have the right to have personal data we hold about you erased. This will be done without undue delay. These circumstances include the following: it is no longer necessary for us to hold personal data in relation to the purposes for which it was originally collected or otherwise processed; you withdraw your consent to any processing that requires consent; the processing is for direct marketing purposes; or the personal data has been unlawfully processed. 
+<p>&nbsp;</p> 
+However, there are certain general exclusions of the right to erasure, including where processing is necessary: for exercising the right of freedom of expression and information; for compliance with a legal or regulatory obligation; or for establishing, exercising or defending legal claims. 
+<p>&nbsp;</p> 
+
+### Your right to restrict processing of your personal information
+<p>&nbsp;</p> 
+In certain circumstances you have the right for the processing of your personal data to be restricted. This is the case where: you do not think that the personal data we hold about you is accurate; your data is being processed unlawfully, but you do not want your data to be erased; it is no longer necessary for us to hold your personal data for the purposes of our processing, but you still require that personal data in relation to a legal claim; or you have objected to processing, and are waiting for that objection to be verified.
+<p>&nbsp;</p> 
+Where processing has been restricted for one of these reasons, we may continue to store your personal data. However, we will only process it for other reasons: with your consent; in relation to a legal claim; for the protection of the rights of another natural or legal person; or for reasons of important public interest. 
+<p>&nbsp;</p>
+
+### Your right to object to processing of your personal information
+<p>&nbsp;</p> 
+You may object to us processing your personal data on grounds relating to your particular situation, unless our legal basis for the processing is that it is necessary for: the performance of a task carried out in the public interest, or in the exercise of any official authority vested in us; or the purposes of our legitimate interests or those of a third party. 
+<p>&nbsp;</p> 
+If you make an objection, we will stop processing your personal information unless we are able to: demonstrate compelling legitimate grounds for the processing, and that these legitimate grounds override your interests, rights and freedoms; or the processing is in relation to a legal claim. 
+<p>&nbsp;</p> 
+
+### Your right to make a complaint
+<p>&nbsp;</p> 
+If you think that our processing of your personal data infringes data protection laws, you have the right to lodge a complaint at any time to the Information Commissioner’s Office the UK regulator for data protection issues (www.ico.org.uk). 
+<p>&nbsp;</p>
+We would, however, appreciate the chance to deal with your concerns before you approach the ICO so please contact us in the first instance at privacy@threenine.co.uk , and we assure you that your concerns will be promptly and properly investigated. 
+<p>&nbsp;</p> 
