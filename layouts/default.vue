@@ -1,11 +1,10 @@
 <template>
-  <html class="h-full">
   <div class="min-h-full">
    <threenine-header/>
     <slot />
     <threenine-footer />
   </div>
-  </html>
+
 </template>
 
 <script lang="ts" setup>
@@ -19,8 +18,7 @@ useHead({
 })
 useSchemaOrg([
     defineWebSite({
-      name: "threenine.co.uk",
-      publisher: 'Threenine Consulting Limited'
+      name: "threenine.co.uk"
     }),
     defineOrganization({
       name: "Threenine Consulting Limited",

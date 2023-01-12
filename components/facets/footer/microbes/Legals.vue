@@ -12,4 +12,5 @@
 const legals = await queryContent("legals")
     .sort({ _file: -1, $numeric: true })
     .find();
+
 </script>

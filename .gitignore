@@ -6,6 +6,9 @@ node_modules
 .output
 .env
 dist
+
+# Local Netlify folder
+.netlify
 coverage/*
 yarn.lock
 
