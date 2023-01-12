@@ -6,11 +6,9 @@
         <div class="grid grid-cols-2 gap-8 xl:col-span-2">
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <Products/>
-            <support/>
-          </div>
+            </div>
           <div class="md:grid md:grid-cols-2 md:gap-8">
-            <Company/>
-            <Legals/>
+             <Legals/>
           </div>
         </div>
         <newsletter/>

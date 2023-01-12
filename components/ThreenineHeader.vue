@@ -36,7 +36,7 @@
                         </div>
                         <div class="ml-4 md:flex-1 md:flex md:flex-col md:justify-between lg:ml-0 lg:mt-4">
                           <div>
-                            <p class="text-base font-medium text-gray-900">
+                            <p class="text-base font-medium text-orange-500">
                               {{ item.title }}
                             </p>
                             <p class="mt-1 text-sm text-gray-500">
@@ -53,7 +53,7 @@
                       <div v-for="item in callsToAction" :key="item.name" class="flow-root">
                         <a :href="item.href" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100">
                           <component :is="item.icon" class="flex-shrink-0 h-6 w-6 text-gray-400" aria-hidden="true" />
-                          <span class="ml-3">{{ item.name }}</span>
+                          <span class="ml-3">{{ item.value }}</span>
                         </a>
                       </div>
                     </div>
@@ -63,7 +63,7 @@
             </Popover>
             <Popover v-slot="{ open }">
               <PopoverButton :class="[open ? 'text-gray-900' : 'text-gray-500', 'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500']">
-                <span>Company</span>
+                <span>Services</span>
                 <ChevronDownIcon :class="[open ? 'text-gray-600' : 'text-gray-400', 'ml-2 h-5 w-5 group-hover:text-gray-500']" aria-hidden="true" />
               </PopoverButton>
 
@@ -76,27 +76,17 @@
                   <div class="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2">
                     <nav class="grid gap-y-10 px-4 py-8 bg-white sm:grid-cols-2 sm:gap-x-8 sm:py-12 sm:px-6 lg:px-8 xl:pr-12">
                       <div>
-                        <h3 class="text-base font-medium text-gray-500">Company</h3>
+
                         <ul role="list" class="mt-5 space-y-6">
-                          <li v-for="item in company" :key="item.name" class="flow-root">
-                            <a :href="item.href" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
+                          <li v-for="item in services" :key="item.title" class="flow-root">
+                            <a :href="item._path" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
                               <component :is="item.icon" class="flex-shrink-0 h-6 w-6 text-gray-400" aria-hidden="true" />
-                              <span class="ml-4">{{ item.name }}</span>
+                              <span class="ml-4">{{ item.title }}</span>
                             </a>
                           </li>
                         </ul>
                       </div>
-                      <div>
-                        <h3 class="text-base font-medium text-gray-500">Resources</h3>
-                        <ul role="list" class="mt-5 space-y-6">
-                          <li v-for="item in resources" :key="item.name" class="flow-root">
-                            <a :href="item.href" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
-                              <component :is="item.icon" class="flex-shrink-0 h-6 w-6 text-gray-400" aria-hidden="true" />
-                              <span class="ml-4">{{ item.name }}</span>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
+
                     </nav>
 
                   </div>
@@ -104,9 +94,6 @@
               </transition>
             </Popover>
           </PopoverGroup>
-          <div class="flex items-center md:ml-12">
-            <a href="#" class="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-orange-600 hover:bg-orange-700"> Contact </a>
-          </div>
         </div>
       </div>
     </div>
@@ -129,35 +116,22 @@
             <div class="mt-6 sm:mt-8">
               <nav>
                 <div class="grid gap-7 sm:grid-cols-2 sm:gap-y-8 sm:gap-x-4">
-                  <a v-for="item in products" :key="item.name" :href="item.href" class="-m-3 flex items-center p-3 rounded-lg hover:bg-gray-50">
-                    <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-orange-500 text-white sm:h-12 sm:w-12">
-                      <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
+                  <a v-for="item in products" :key="item.title" :href="item._path" class="-m-3 flex items-center p-3 rounded-lg hover:bg-gray-50">
+                    <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md sm:h-12 sm:w-12">
+                       <span class="inline-flex items-center justify-center h-10 w-10 rounded-md  text-white sm:h-12 sm:w-12">
+                          <img class="rounded-lg object-cover object-center shadow-lg" :src="item.productImage.url"
+                               :alt="item.title" />
+                          </span>
                     </div>
-                    <div class="ml-4 text-base font-medium text-gray-900">
-                      {{ item.name }}
+                    <div class="ml-4 text-base font-medium text-orange-500">
+                      {{ item.title }}
                     </div>
                   </a>
                 </div>
                 <div class="mt-8 text-base">
-                  <a href="#" class="font-medium text-orange-600 hover:text-orange-500"> View all products <span aria-hidden="true">&rarr;</span></a>
+                  <nuxt-link to="products" class="font-medium text-orange-600 hover:text-orange-500"> View all products <span aria-hidden="true">&rarr;</span></nuxt-link>
                 </div>
               </nav>
-            </div>
-          </div>
-          <div class="py-6 px-5">
-            <div class="grid grid-cols-2 gap-4">
-
-              <a href="#" class="rounded-md text-base font-medium text-gray-900 hover:text-gray-700"> Company </a>
-
-              <a href="#" class="rounded-md text-base font-medium text-gray-900 hover:text-gray-700"> Resources </a>
-
-              <a href="#" class="rounded-md text-base font-medium text-gray-900 hover:text-gray-700"> Blog </a>
-
-              <a href="tel:+44-116-318-3635" class="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
-                Contact Sales</a>
-            </div>
-            <div class="mt-6">
-              <a href="#" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-orange-600 hover:bg-orange-700"> Contact </a>
             </div>
           </div>
         </div>
@@ -184,34 +158,13 @@ const products = await queryContent("products")
     .sort({ _file: -1, $numeric: true })
     .find()
 
+const services =  await queryContent("services")
+    .sort({ _file: -1, $numeric: true })
+    .find()
 
 const callsToAction = [
-  { name: 'Contact', href: 'tel:+44-116-318-3635', icon: PhoneIcon },
+  { name: 'Contact', href: 'tel:+44-116-318-3635', value: '+44 116 318 3635' , icon: PhoneIcon },
 ]
-const company = [
-  { name: 'About', href: '../about', icon: InformationCircleIcon },
-  { name: 'Privacy', href: '../legals/privacy', icon: ShieldCheckIcon },
-]
-const resources = [
 
 
-]
-const blogPosts = [
-  {
-    id: 1,
-    name: 'Boost your conversion rate',
-    href: '#',
-    preview: 'Eget ullamcorper ac ut vulputate fames nec mattis pellentesque elementum. Viverra tempor id mus.',
-    imageUrl:
-        'https://images.unsplash.com/photo-1558478551-1a378f63328e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2849&q=80',
-  },
-  {
-    id: 2,
-    name: 'How to use search engine optimization to drive traffic to your site',
-    href: '#',
-    preview: 'Eget ullamcorper ac ut vulputate fames nec mattis pellentesque elementum. Viverra tempor id mus.',
-    imageUrl:
-        'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2300&q=80',
-  },
-]
 </script>
