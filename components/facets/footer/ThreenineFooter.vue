@@ -6,6 +6,7 @@
         <div class="grid grid-cols-2 gap-8 xl:col-span-2">
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <Products/>
+            <Services/>
             </div>
           <div class="md:grid md:grid-cols-2 md:gap-8">
              <Legals/>
@@ -24,8 +25,7 @@
 <script lang="ts" setup>
 
 import Products from "~/components/facets/footer/microbes/Products.vue";
-import Support from "~/components/facets/footer/microbes/Support.vue";
-import Company from "~/components/facets/footer/microbes/Company.vue";
+import Services from "~/components/facets/footer/microbes/Services.vue";
 import Legals from "~/components/facets/footer/microbes/Legals.vue";
 import Socials from "~/components/facets/footer/microbes/Socials.vue";
 import Newsletter from "~/components/facets/footer/microbes/Newsletter.vue";
