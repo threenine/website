@@ -31,6 +31,7 @@
         </div>
       </div>
     </div>
+    <skill-cloud />
   </div>
   </div>
 </template>

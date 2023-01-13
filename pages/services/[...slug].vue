@@ -28,6 +28,7 @@ export default defineComponent({
                 <div class="prose prose-md max-w-prose lg:max-w-none text-gray-500 lg:col-start-1
           lg:row-start-1 lg:max-w-none prose-headings:text-orange-500 prose-a:text-orange-500 prose-a:no-underline  prose-headings:text-2xl ">
                   <content-renderer :value="doc"/>
+                  <skill-cloud/>
                 </div>
               </div>
               <!-- End main area -->
@@ -46,6 +47,7 @@ export default defineComponent({
         </div>
       </div>
     </div>
+
   </ContentDoc>
 </template>
 

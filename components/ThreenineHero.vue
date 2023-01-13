@@ -1,7 +1,5 @@
-<!-- This example requires Tailwind CSS v2.0+ -->
 <template>
   <div class="bg-white">
-
     <main>
       <div>
         <!-- Hero card -->
@@ -29,19 +27,8 @@
             </div>
           </div>
         </div>
-
-        <!-- Logo cloud -->
-
       </div>
-
-      <!-- More main page content here... -->
     </main>
   </div>
 </template>
 
-<script setup>
-
-
-
-import LogoCloud from "~/components/LogoCloud.vue";
-</script>
