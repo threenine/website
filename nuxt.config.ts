@@ -1,4 +1,5 @@
 import Icons from 'unplugin-icons/vite'
+import {isProduction} from "std-env";
 export default defineNuxtConfig({
     app: {
         head: {
@@ -42,5 +43,12 @@ export default defineNuxtConfig({
         canonicalHost: 'https://threenine.co.uk',
         position: 'head'
     },
+    runtimeConfig: {
+        public: {
+            google_analytics_id: process.env.google_analytics_id,
+            production_mode: isProduction
+
+        }
+    }
 
 })
