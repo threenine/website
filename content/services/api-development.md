@@ -10,19 +10,15 @@ productImage:
   title: API Development
 ---
 
-Our risk-based approach allows us to fulfill a wide range of business requirements by delivering APIs with ROI-driven 
-design, high reliability, and robust architecture that enables apps to interact seamlessly. 
+*Application Programming Interface* (API), the technology fundamentally responsible for changing how data is used and
+has introduced entirely new business models and strategies for products and services worldwide. 
 
-*Application Programming Interface* (API), the technology fundamentally responsible for changing how data is used today,
-has introduced entirely new business models and strategies for products worldwide. 
-
-APIs have numerous beneficial features, which makes it a one-stop solution for quality and high performing application 
+APIs have numerous beneficial features, which make them a one-stop solution for quality and high performing application 
 development.
 
-Our team of API Experts leverage their years of experience in creating high-performance APIs to build business-critical 
-web applications, mobile applications, and processes, with common architectures like **REST**, **SOAP**, **hyper-media**, 
-**event-driven Architectures**, and using API development standards like OpenID Connect, OAuth2, among others, which 
-further simplify the API development process.
+Our team of API Experts leverage years of experience in creating high-performance APIs to develop business-critical 
+Web & Mobile applications and services making use of common architectures like **REST**, **GraphQL** **SOAP**, **Hyper-media**, 
+**Event-Driven Architectures** utilising API Identity standards like OpenID Connect, OAuth2 and others.
 
-threenine.co.uk deliver end-to-end custom API development and API integration services that cater to different 
-project requirements of established market players as well as startups worldwide.
+threenine.co.uk deliver end-to-end custom API development services that cater to different 
+project requirements of established market players and startups worldwide.
