@@ -37,7 +37,7 @@
 </template>
 
 <script lang="ts" setup>
-
+useHead({title: "Cultivate, Develop & Sustain Innovation"})
 </script>
 
 <style scoped>

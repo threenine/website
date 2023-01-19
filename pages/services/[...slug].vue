@@ -1,10 +1,11 @@
-<script>
+<script lang="ts" setup>
 import {defineComponent} from "vue";
 import PageHeader from "~/components/services/page-header.vue";
 
-export default defineComponent({
-  components: {PageHeader}
-})
+defineComponent({components: PageHeader})
+
+
+
 </script>
 
 <template>
