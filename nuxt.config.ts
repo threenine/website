@@ -21,6 +21,7 @@ export default defineNuxtConfig({
     },
     tailwindcss: {
         config: {
+            plugins: [ require('@tailwindcss/typography'), require('@tailwindcss/aspect-ratio'), require('@tailwindcss/forms')],
             content: [
                 `components/**/*.{vue,js}`,
                 `layouts/**/*.vue`,
