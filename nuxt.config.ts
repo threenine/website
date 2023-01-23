@@ -13,12 +13,14 @@ export default defineNuxtConfig({
             ]
         },
     },
+    build: {
+        transpile: ['@tailwindcss/typography','@tailwindcss/aspect-ratio','@tailwindcss/forms']
+    },
     typescript: {
         strict: true
     },
     tailwindcss: {
         config: {
-            plugins: [ require('@tailwindcss/typography'), require('@tailwindcss/aspect-ratio'), require('@tailwindcss/forms')],
             content: [
                 `components/**/*.{vue,js}`,
                 `layouts/**/*.vue`,
