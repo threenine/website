@@ -1,6 +1,8 @@
 <script lang="ts" setup>
 import RightSide from "~/components/products/microbes/RightSide.vue";
 
+
+
 </script>
 
 <template>

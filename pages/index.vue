@@ -37,7 +37,17 @@
 </template>
 
 <script lang="ts" setup>
-useHead({title: "Cultivate, Develop & Sustain Innovation"})
+useHead({
+  title: "Cultivate, Develop & Sustain Innovation",
+  titleTemplate: (title) => `${title} | threenine.co.uk`,
+  meta: [
+    { name:"google-site-verification", content:"-SnqrAJt9SfJIWU5UIkONn0wsqfgzxO47HjvQo12FD0"},
+    { name: "og:title", content: "Cultivate, Develop & Sustain Innovation" },
+    {name: "description", content: " values-driven software development company specialising in delivering custom software solutions, digital transformation, and IT consulting. We employ innovative thinking and decades of expertise to help our clients leverage the latest technologies, always aiming to create the most fit-for-purpose digital solutions."}
+  ]
+    },
+
+)
 </script>
 
 <style scoped>
