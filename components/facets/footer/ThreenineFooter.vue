@@ -16,7 +16,7 @@
       </div>
       <div class="mt-8 border-t border-gray-700 pt-8 md:flex md:items-center md:justify-between">
         <Socials/>
-        <nuxt-link to="https://find-and-update.company-information.service.gov.uk/company/05608093" class="mt-8 text-base text-gray-400 md:order-1 md:mt-0">&copy THREENINE CONSULTING LIMITED registered in England & Wales 05608093 VAT no. GB 900383850</nuxt-link>
+        <nuxt-link to="https://find-and-update.company-information.service.gov.uk/company/05608093" class="mt-8 text-base text-gray-400 md:order-1 md:mt-0">&copy {{ new Date().getFullYear() }} THREENINE CONSULTING LIMITED registered in England & Wales 05608093 VAT no. GB 900383850</nuxt-link>
       </div>
     </div>
   </footer>
