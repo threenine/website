@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import RightSide from "~/components/products/microbes/RightSide.vue";
+import ProductTitle from "~/components/products/microbes/productTitle.vue";
 
 
 
@@ -11,10 +12,7 @@ import RightSide from "~/components/products/microbes/RightSide.vue";
       <div class="relative mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
         <div class="absolute top-0 bottom-0 left-3/4 hidden w-screen bg-gray-50 lg:block"/>
         <div class="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
-          <div>
-            <h2 class="mt-2 text-3xl font-bold leading-8 tracking-tight text-orange-500 sm:text-4xl">
-              {{ doc.title }}</h2>
-          </div>
+         <product-title :title="doc.title" />
         </div>
         <div class="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
           <div class="relative lg:col-start-2 lg:row-start-1">
