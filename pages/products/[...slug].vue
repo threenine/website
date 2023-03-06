@@ -1,7 +1,8 @@
 <script lang="ts" setup>
 import RightSide from "~/components/products/microbes/RightSide.vue";
 import ProductTitle from "~/components/products/microbes/productTitle.vue";
-
+const route = useRoute()
+const {data: product} = await useAsyncData('product', () => queryContent('/products').where({_path: route.path}) .findOne())
 
 </script>
 
@@ -9,21 +10,21 @@ import ProductTitle from "~/components/products/microbes/productTitle.vue";
   <div>
     <nuxt-layout name="product">
       <template #productTitle>
-        <ContentDoc v-slot="{ doc }">
-          <product-title :title="doc.title"/>
-        </ContentDoc>
+
+          <product-title :title="product.title"/>
+
       </template>
 
       <template #productLinks>
-        <ContentDoc v-slot="{ doc }">
-          <right-side :github="doc.links.github" :image="doc.productImage" :nuget="doc.links.nuget"
-                      :website="doc.links.website"></right-side>
-        </ContentDoc>
+
+          <right-side :github="product.links.github" :image="product.productImage" :nuget="product.links.nuget"
+                      :website="product.links.website"></right-side>
+
       </template>
       <template #description>
-        <ContentDoc v-slot="{ doc }">
-          <content-renderer :value="doc"/>
-        </ContentDoc>
+
+          <content-renderer :value="product"/>
+
       </template>
     </nuxt-layout>
   </div>

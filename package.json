@@ -16,7 +16,7 @@
     "@nuxtjs/tailwindcss": "^6.1.2",
     "@vitest/coverage-c8": "^0.25.3",
     "c8": "^7.12.0",
-    "nuxt": "3.0.0",
+    "nuxt": "^3.2.3",
     "unplugin-icons": "^0.14.14",
     "vitest": "^0.25.3",
     "vue-gtag-next": "^1.14.0"
