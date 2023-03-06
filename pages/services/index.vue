@@ -1,17 +1,8 @@
-<!--
-  This example requires some changes to your config:
-
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
--->
+<script lang="ts" setup>
+const qc = await queryContent("services")
+    .sort({ _file: -1, $numeric: true })
+    .find();
+</script>
 <template>
   <!-- Background color split screen for large screens -->
   <div class="fixed top-0 left-0 h-full w-1/2 bg-white" aria-hidden="true" />

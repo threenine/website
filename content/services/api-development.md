@@ -1,6 +1,6 @@
 ---
 title: API Development
-description: API Development
+description: API Development to help businesses by providing them with a dependable, performant API infrastructure.
 summary:  API Development to help businesses by providing them with a dependable, performant API infrastructure.
 bannerImage:
   url: /images/services-header.jpg

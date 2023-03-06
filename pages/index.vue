@@ -39,7 +39,7 @@
 <script lang="ts" setup>
 useHead({
   title: "Cultivate, Develop & Sustain Innovation",
-  titleTemplate: (title) => `${title} | threenine.co.uk`,
+
   meta: [
     { name:"google-site-verification", content:"-SnqrAJt9SfJIWU5UIkONn0wsqfgzxO47HjvQo12FD0"},
     { name: "og:title", content: "Cultivate, Develop & Sustain Innovation" },

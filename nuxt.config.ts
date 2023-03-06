@@ -4,10 +4,6 @@ export default defineNuxtConfig({
     app: {
         head: {
 
-            meta: [{
-                name: 'description',
-                content: 'Agile software consultancy & Bespoke software developers delivering high performance digital products'
-            }],
             link: [
                 {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
             ]
