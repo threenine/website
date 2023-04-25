@@ -24,7 +24,7 @@ useHead({
     </template>
 
     <template #description>
-      <content-renderer :value="service"/>
+      <content-renderer :value="service" />
     </template>
     <template #rightColumn>
 

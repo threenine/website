@@ -10,6 +10,7 @@ productImage:
   title: API Development
 ---
 
+
 *Application Programming Interface* (API), the technology fundamentally responsible for changing how data is used and
 has introduced entirely new business models and strategies for products and services worldwide. 
 
@@ -23,7 +24,7 @@ Web & Mobile applications and services making use of common architectures like *
 threenine.co.uk deliver end-to-end custom API development services that cater to different 
 project requirements of established market players and startups worldwide.
 
-###  Develop business-specific APIs to enable seamless integration between disparate systems.
+### Develop business-specific APIs to enable seamless integration between disparate systems
+
 
 ::skill-cloud
-::
