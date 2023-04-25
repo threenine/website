@@ -163,8 +163,8 @@ import {
 
   ShieldCheckIcon,
   XMarkIcon,
-} from '@heroicons/vue/24/outline/index.js'
-import { ChevronDownIcon } from '@heroicons/vue/20/solid/index.js'
+} from '@heroicons/vue/24/outline/index'
+import { ChevronDownIcon } from '@heroicons/vue/20/solid/index'
 
 const products = await queryContent("products")
     .sort({ _file: -1, $numeric: true })
