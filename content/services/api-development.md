@@ -9,13 +9,16 @@ productImage:
   url: /images/api.png
   title: API Development
 ---
-
-Experienced at developing custom APIs to suit your varying business models and ensure coherent, flexible & 
+::intro-text
+Experienced developers of custom APIs to suit your varying business models and ensure coherent, flexible & 
 consistent integration with as many systems as possible.
+::
 
-### API DEVELOPMENT & SYSTEM INTEGRATION SERVICES
+::section-header
+  API Development & System Integration Services
+::
 
-**Development & integration of  REST-ful APIs enabling seamless communication between different software systems.**
+Development & integration of  REST-ful APIs enabling seamless communication between different software systems.
 
 *Application Programming Interface* (API), the technology fundamentally responsible for changing how data is used and
 has introduced entirely new business models and strategies for products and services worldwide. 
