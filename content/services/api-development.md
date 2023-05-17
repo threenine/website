@@ -10,8 +10,8 @@ productImage:
   title: API Development
 ---
 ::intro-text
-Experienced developers of custom APIs to suit your varying business models and ensure coherent, flexible & 
-consistent integration with as many systems as possible.
+Experienced developers of custom APIs to suit varying business models ensuring coherent, flexible & 
+consistent integration with multiple systems.
 ::
 
 ::section-header
