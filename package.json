@@ -8,18 +8,18 @@
     "test": "vitest run --coverage"
   },
   "devDependencies": {
-    "@types/node": "^18.15.12",
-    "@types/tailwindcss": "^2.2.0",
     "@iconify-json/fa6-solid": "^1.1.9",
     "@iconify-json/material-symbols": "^1.1.24",
     "@iconify-json/ri": "^1.1.4",
     "@iconify-json/simple-icons": "^1.1.50",
     "@nuxt/content": "latest",
+    "@nuxt/ui": "latest",
     "@nuxtjs/tailwindcss": "^6.6.6",
+    "@types/node": "^18.15.12",
+    "@types/tailwindcss": "^2.2.0",
     "@vitest/coverage-c8": "^0.25.3",
     "c8": "^7.12.0",
     "nuxt": "latest",
-    "@nuxt/ui": "latest",
     "unplugin-icons": "^0.14.14",
     "vitest": "^0.25.3",
     "vue-gtag-next": "^1.14.0"
