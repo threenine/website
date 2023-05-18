@@ -47,12 +47,8 @@ project requirements of established market players and startups worldwide.
   Develop business-specific APIs to enable seamless integration between disparate systems
 ::
 
-::skill-cloud
-::
 
-::section-header 
-  Expertise
-::
+
 
 Threenine have numerous years of experience building successful and well-tested APIs for organisations to enhance 
 existing solutions or implement within new projects.
@@ -61,3 +57,5 @@ We’ve built bespoke ticketing systems, CRMs and other web apps with built-in A
 platforms and websites by incorporating a variety of third party APIs. We have been consulted by organisations to help
 them build unique API-ready programs, customise existing services or integrate services according to very specific 
 requirements.
+::skill-cloud
+::
