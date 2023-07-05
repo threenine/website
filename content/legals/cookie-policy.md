@@ -16,7 +16,7 @@ Cookies are small text files that are placed on your computer by websites that y
 <p>&nbsp;</p>
 
 ### No Cookies used on this site
-#
+
 threenine.co.uk makes use of no cookies on the site. We don't track you and respect your privacy. We make use of 
 [Fathom Analytics](https://usefathom.com/ref/JCGMAJ) to track site usage, but this is done anonymously and no personal 
 information is collected.
