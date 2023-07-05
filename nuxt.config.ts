@@ -14,7 +14,7 @@ export default defineNuxtConfig({
             })
         ]
     },
-    modules: ['nuxt-schema-org', '@nuxtjs/tailwindcss', '@nuxt/content'],
+    modules: ['nuxt-simple-sitemap','nuxt-schema-org', '@nuxtjs/tailwindcss', '@nuxt/content'],
     schemaOrg: {
         canonicalHost: 'https://threenine.co.uk',
         position: 'head'
@@ -22,6 +22,7 @@ export default defineNuxtConfig({
     runtimeConfig: {
         public: {
             fathom_analytics_id: process.env.fathom_analytics_id,
+            siteUrl: 'https://threenine.co.uk',
 
         }
     }
