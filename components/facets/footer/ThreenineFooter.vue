@@ -10,9 +10,10 @@
             </div>
           <div class="md:grid md:grid-cols-2 md:gap-8">
              <Legals/>
+            <company/>
           </div>
         </div>
-        <newsletter/>
+
       </div>
       <div class="mt-8 border-t border-gray-700 pt-8 md:flex md:items-center md:justify-between">
         <Socials/>
@@ -29,6 +30,7 @@ import Services from "~/components/facets/footer/microbes/Services.vue";
 import Legals from "~/components/facets/footer/microbes/Legals.vue";
 import Socials from "~/components/facets/footer/microbes/Socials.vue";
 import Newsletter from "~/components/facets/footer/microbes/Newsletter.vue";
+import Company from "~/components/facets/footer/microbes/Company.vue";
 
 
 </script>

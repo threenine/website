@@ -6,7 +6,7 @@
 <script lang="ts" setup>
 
 useHead({
-  title: 'Geekiam',
+  title: 'threenine',
   meta: [
     {name: 'og:image', content: 'https://threeine.co.uk/logo.svh'},
     {name: 'og:url', content: 'https://threenine.co.uk'},
