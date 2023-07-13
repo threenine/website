@@ -31,8 +31,9 @@
         </div>
       </div>
     </div>
-    <skill-cloud />
     <services/>
+    <skill-cloud />
+
   </div>
   </div>
 </template>

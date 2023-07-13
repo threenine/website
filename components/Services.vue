@@ -58,7 +58,7 @@
           Don't lose ground to a new technology. Staying up to date on recent regulatory, security and technology development requires extensive expertise and dedicated resources.
         </p>
       </div>
-      <div class="w-full p-8 border-b md:w-1/2 md:border-r md:border-b-0 lg:w-1/3 lg:border-b-0">
+      <div class="w-full p-8 border-b md:w-1/2 md:border-r md:border-b-0 lg:w-1/3 lg:border-b-0 ">
         <div class="flex items-center mb-6">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="w-8 h-8 text-orange-500" viewBox="0 0 32 32"><path fill="currentColor" d="M28 14h-1V7c0-1.1-.9-2-2-2h-6v2h6v7h-1c-1.1 0-2 .9-2 2v9H9.9c-.4-1.4-1.5-2.5-2.9-2.9V7h6.2l-2.6 2.6L12 11l5-5l-5-5l-1.4 1.4L13.2 5H7c-1.1 0-2 .9-2 2v15.1c-1.7.4-3 2-3 3.9c0 2.2 1.8 4 4 4c1.9 0 3.4-1.3 3.9-3H22v1c0 1.1.9 2 2 2h4c1.1 0 2-.9 2-2V16c0-1.1-.9-2-2-2zM6 28c-1.1 0-2-.9-2-2s.9-2 2-2s2 .9 2 2s-.9 2-2 2zm18 0V16h4v12h-4z"/></svg>
           <div class="ml-4 text-xl">
