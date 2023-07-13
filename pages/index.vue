@@ -32,11 +32,14 @@
       </div>
     </div>
     <skill-cloud />
+    <services/>
   </div>
   </div>
 </template>
 
 <script lang="ts" setup>
+import Services from "~/components/Services.vue";
+
 useHead({
   title: "Cultivate, Develop & Sustain Innovation",
 
