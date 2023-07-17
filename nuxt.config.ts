@@ -19,9 +19,7 @@ export default defineNuxtConfig({
         canonicalHost: 'https://threenine.co.uk',
         position: 'head'
     },
-    build: {
-        transpile: ['yup', 'lodash', '@vee-validate/rules']
-    },
+
     runtimeConfig: {
         public: {
             fathom_analytics_id: process.env.fathom_analytics_id,
