@@ -31,7 +31,9 @@ useHead({
           <div class="h-full py-6 pl-6 lg:w-80">
             <!-- Start right column area -->
             <div class="relative h-full" style="min-height: 16rem">
-              <div class="absolute inset-0 rounded-lg border-2 border-dashed border-gray-200" />
+              <div class="absolute inset-0 rounded-lg border-2 border-dashed border-gray-200">
+
+              </div>
             </div>
             <!-- End right column area -->
           </div>

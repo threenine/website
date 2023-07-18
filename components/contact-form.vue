@@ -37,9 +37,7 @@ async function onSubmit() {
 </script>
 
 <template>
-  <form @submit="handleSubmit" @submit.prevent="default"   class="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48"
-
-  >
+  <form @submit="handleSubmit" @submit.prevent="default"   class="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
     <div class="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
       <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
         <div>
@@ -50,7 +48,7 @@ async function onSubmit() {
                    name="firstName" id="firstName"
                    autocomplete="given-name"
             />
-            <span class="text-red-500  text-xs">{{errors.firstName}}</span>
+            <span class="text-red-500 text-xs">{{errors.firstName}}</span>
           </div>
         </div>
         <div>
@@ -63,15 +61,14 @@ async function onSubmit() {
           <label for="email" class="block text-sm font-semibold leading-6 text-gray-900">Email</label>
           <div class="mt-2.5">
             <input type="email" v-bind="email" name="email" id="email"
-                   autocomplete="email"
-            />
+                   autocomplete="email" />
             <span class="text-red-500 text-xs">{{errors.email}}</span>
           </div>
         </div>
         <div class="sm:col-span-2">
           <label for="phoneNumber" class="block text-sm font-semibold leading-6 text-gray-900">Phone number</label>
           <div class="mt-2.5">
-            <input type="tel" v-bind="phoneNumber"  name="phoneNumber" id="phone_number" autocomplete="tel"  />
+            <input type="tel" v-bind="phoneNumber"  name="phoneNumber" id="phone_number" autocomplete="tel" />
             <span class="text-red-500 text-xs ">{{errors.phoneNumber}}</span>
           </div>
         </div>
@@ -87,9 +84,6 @@ async function onSubmit() {
         <button type="submit" @click="onSubmit" :disabled="!meta.touched" class="rounded-md bg-orange-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
         >Send message</button>
       </div>
-
-
-
     </div>
   </form>
 

@@ -13,7 +13,9 @@ defineProps({
     default: '/images/api-dev-cta.jpg'
   }
 })
-
+const Click = () => {
+  location.href = 'https://threenine.co.uk/contact'
+};
 </script>
 
 <template>
@@ -24,7 +26,7 @@ defineProps({
         <div class="flex flex-col justify-center flex-1 p-6 bg-white">
           <h3 class="text-3xl font-bold">{{ heading}}</h3>
           <p class="my-6 dark:text-gray-400">{{text }}</p>
-          <button type="button" class="bg-orange-500 hover:bg-orange-400 text-white font-bold py-2 px-4 rounded-full">Start your project</button>
+          <button type="button" @click="Click" class="bg-orange-500 hover:bg-orange-400 text-white font-bold py-2 px-4 rounded-full">Start your project</button>
         </div>
       </div>
     </div>
