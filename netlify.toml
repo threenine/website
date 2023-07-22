@@ -2,7 +2,6 @@
   publish = "dist"
   command = "nuxt build"
 
-
 [functions]
   directory = "functions/"
 
