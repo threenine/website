@@ -14,7 +14,7 @@ export default defineNuxtConfig({
             })
         ]
     },
-    modules: ['nuxt-simple-sitemap','nuxt-schema-org', '@nuxtjs/tailwindcss', '@nuxt/content'],
+    modules: ['nuxt-schema-org', '@nuxtjs/tailwindcss', '@nuxt/content'],
     schemaOrg: {
         canonicalHost: 'https://threenine.co.uk',
         position: 'head'
