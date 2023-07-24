@@ -99,10 +99,10 @@ as set out below:
 
 
 * Identity and Contact Data from publicly available sources such as Linked In, Companies House.
-* Contact data which we obtain by working with third party technical partners such as Lead Forensics who can provide 
-* corporate (but not personal) website visitor information based upon IP Address information, in combination with 
-publicly available sources such as LinkedIn.
-* Technical Data from analytics providers such as Google Analytics, who may be based outside the UK;
+* Contact data which we obtain by working with third party technical partners such as Lead Generation services who may provide:
+  * corporate (but not personal) website visitor information based upon IP Address information, in combination with 
+publicly available sources such as LinkedIn, xing and other professional networking services .
+  * Technical Data from analytics providers such as Google Analytics, who may be based outside the UK;
  
 
 ### The legal basis for collection and use of personal data 
@@ -115,9 +115,8 @@ data in the following circumstances:
 * More specifically, where you are either a client or a representative of a client or where we are marketing our services based upon leads generated through use of third party provided information (which may be based upon use of anonymised website visitor identification in combination with publicly available contact information as set out above), we assert it is in our legitimate interest to send you marketing communications via email or to your social media accounts. All of these communications will include a facility to opt-out from receiving any further communication or your social media platform will provide a facility to block further communications from us. 
 * Where we need to comply with a legal obligation. 
 
-Generally, we do not rely on consent as a legal basis for processing your personal data except where data protection or privacy law requires this. You will have the right to withdraw any such consent at any time by contacting us.
-
-
+Generally, we do not rely on consent as a legal basis for processing your personal data except where data protection or 
+privacy law requires this. You will have the right to withdraw any such consent at any time by contacting us.
 
 ### Who your personal information will be shared with  
 
@@ -144,7 +143,7 @@ more details of these if you have further questions about these.
 If you are registered to receive emails, your information will additionally be stored securely in an Email Marketing 
 Service (EMS), again made available only to the person(s) who require it to respond to this registration. 
 
-If visiting Threenine Consulting at our offices, the personal information provided to our check-in service will be 
+If visiting _Threenine Consulting_ at our offices, the personal information provided to our check-in service will be 
 recorded securely in that service and delivered only to those people you are there to meet. 
 
 Personal information supplied as part of a contract signature process will be stored in a secure contracts repository 
@@ -165,11 +164,11 @@ In all cases, personal information is not otherwise sold or shared with any thir
 ### Data Export
 
  Where it is reasonable for the operation and development of our business, your personal data may be transferred and 
- stored outside of the UK. It may also be processed by any of our staff (including contractors), other parties who may 
+ stored outside the UK jurisdictional boundaries. It may also be processed by any of our staff (including contractors), other parties who may 
  be working on a project which your personal data is relevant to or our third-party technical partner, who may be 
- located and operating outside of the UK. 
+ located and operating outside the UK. 
 
- Where your personal data is to be transferred outside of the UK, we will ensure that either: 
+ Where your personal data is to be transferred outside the UK, we will ensure that either: 
 
 1.  there is an “adequacy decision” (which complies with the Data Protection Act 2018) with respect to the data 
 2. protection laws of the country to which it is transferred, 
@@ -178,7 +177,7 @@ there are appropriate safeguards in place providing enforceable rights and effec
 where we use providers based in the US, we may transfer data to them if they are part of the Privacy Shield, 
 4. which requires them to provide similar protection to personal data shared between the UK / Europe and the US; 
 we have entered into a suitable data processing agreement with the third party situated in that country to ensure 
-5. the adequate protection of your data. In all cases, transfers outside of the UK will be protected by appropriate safeguards. 
+5. the adequate protection of your data. In all cases, transfers outside the UK will be protected by appropriate safeguards. 
 
 
 
@@ -230,7 +229,8 @@ be subject to
 
  * enquire about our products or services; 
  * your request not being unfounded or excessive, in which case a charge may apply 
- * the supply of appropriate evidence of your identity (for this purpose, we will usually accept a photocopy of your passport certified by a solicitor or bank plus an original copy of a utility bill showing your current address).
+ * the supply of appropriate evidence of your identity (for this purpose, we will usually accept a photocopy of your 
+ * passport certified by a solicitor or bank plus an original copy of a utility bill showing your current address).
 
 We may withhold personal information that you request to the extent permitted by law.
        
@@ -242,7 +242,9 @@ relation to the purposes for which it was originally collected or otherwise proc
 processing that requires consent; the processing is for direct marketing purposes; or the personal data has been 
 unlawfully processed. 
 
-However, there are certain general exclusions of the right to erasure, including where processing is necessary: for exercising the right of freedom of expression and information; for compliance with a legal or regulatory obligation; or for establishing, exercising or defending legal claims.
+However, there are certain general exclusions of the right to erasure, including where processing is necessary: for 
+exercising the right of freedom of expression and information; for compliance with a legal or regulatory obligation; 
+or for establishing, exercising or defending legal claims.
 
 ### Your right to restrict processing of your personal information
 
