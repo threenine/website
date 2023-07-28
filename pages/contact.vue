@@ -52,5 +52,14 @@
 
 <script setup>
 import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/vue/24/outline'
+useHead({
+      title: "Contact | threenine.co.uk",
 
+      meta: [
+        { name: "og:title", content: "Contact | threenine.co.uk" },
+        {name: "description", content: "Make contact with threenine.co.uk specialist API Developers"}
+      ]
+    },
+
+)
 </script>
