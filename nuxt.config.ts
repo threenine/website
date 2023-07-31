@@ -1,25 +1,13 @@
 import { defineNuxtConfig } from 'nuxt/config'
 import Icons from 'unplugin-icons/vite'
-import {isProduction} from "std-env";
 export default defineNuxtConfig({
-    tailwindcss: {
-            cssPath: '~/assets/css/tailwind.css',
-            configPath: 'tailwind.config',
-        },
-    vite: {
-        plugins: [
-            Icons({
-                // the feature below is experimental ⬇️
-                autoInstall: true
-            })
-        ]
+    image: {
+        provider: 'cloudinary',
+        cloudinary: {
+            baseURL: 'https://res.cloudinary.com/threenine-co-uk/image/upload/'
+        }
     },
-    modules: ['nuxt-schema-org', '@nuxtjs/tailwindcss', '@nuxt/content'],
-    schemaOrg: {
-        canonicalHost: 'https://threenine.co.uk',
-        position: 'head'
-    },
-
+    modules: ['nuxt-schema-org', '@nuxtjs/tailwindcss', '@nuxt/content',  '@nuxt/image'],
     runtimeConfig: {
         public: {
             fathom_analytics_id: process.env.fathom_analytics_id,
@@ -28,7 +16,23 @@ export default defineNuxtConfig({
             emailjs_api_template_id: process.env.emailjs_api_template_id,
             emailjs_api_public_key: process.env.emailjs_api_public_key
         }
-    }
+    },
+    schemaOrg: {
+        canonicalHost: 'https://threenine.co.uk',
+        position: 'head'
+    },
 
+    tailwindcss: {
+        cssPath: '~/assets/css/tailwind.css',
+        configPath: 'tailwind.config',
+    },
+    vite: {
+        plugins: [
+            Icons({
+                // the feature below is experimental ⬇️
+                autoInstall: true
+            })
+        ]
+    }
 
 })
