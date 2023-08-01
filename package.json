@@ -40,6 +40,6 @@
     "vee-validate": "^4.10.6"
   },
   "resolutions": {
-    "@nuxt/kit": "^1.0.0-289a1e0"
+    "@nuxt/kit": "3.0.0-rc.13"
   }
 }
