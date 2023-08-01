@@ -1,6 +1,13 @@
 import { defineNuxtConfig } from 'nuxt/config'
 import Icons from 'unplugin-icons/vite'
 export default defineNuxtConfig({
+    css: ['~/assets/css/tailwind.css'],
+    postcss: {
+        plugins: {
+            tailwindcss: {},
+            autoprefixer: {},
+        },
+    },
     image: {
         provider: 'cloudinary',
         cloudinary: {
