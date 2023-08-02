@@ -1,7 +1,7 @@
 import { defineNuxtConfig } from 'nuxt/config'
 import Icons from 'unplugin-icons/vite'
 export default defineNuxtConfig({
-    css: ['~/assets/css/tailwind.css'],
+    css: ['~/assets/css/main.css'],
     postcss: {
         plugins: {
             tailwindcss: {},
@@ -30,7 +30,7 @@ export default defineNuxtConfig({
     },
 
     tailwindcss: {
-        cssPath: '~/assets/css/tailwind.css',
+        cssPath: '~/assets/css/main.css',
         configPath: 'tailwind.config',
     },
     vite: {

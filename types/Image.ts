@@ -1,5 +1,4 @@
-
-declare class  ContentLink {
+declare class ProductImage {
     title: string;
     url: string;
 }

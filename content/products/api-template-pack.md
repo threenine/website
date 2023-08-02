@@ -1,6 +1,7 @@
 ---
 title: API Template Pack
-description: A amazing thing
+description: API Template Pack enables building great dotnet REST Resource Based API
+  and  microservices.
 summary: API Template Pack enables building great REST Resource Based API
   and  microservices. Trusted by developers in a number of enterprises &
   startups to develop API's using the REPR Pattern & Vertical Slice
@@ -16,7 +17,7 @@ links:
     title: threenine.ApiProject
     url: https://www.nuget.org/packages/threenine.ApiProject/
 productImage:
-  url: /images/apipacklogo.png
+  url: v1690998129/apipacklogo_mgki9b.png
   title: API Template Pack
 ---
 API Template Pack is a set of open source tools and utilities to help **C# Dotnet developers** to quickly and efficiently develop 

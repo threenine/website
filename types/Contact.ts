@@ -1,4 +1,4 @@
- interface IContact {
+ declare class Contact {
     firstName: string;
     lastName: string;
     email: string;

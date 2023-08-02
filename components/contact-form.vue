@@ -13,7 +13,7 @@ const schema = yup.object({
 });
 
 
-const {meta, errors, handleSubmit,validate,  defineInputBinds, values, resetForm } = useForm<IContact>({
+const {meta, errors, handleSubmit,validate,  defineInputBinds, values, resetForm } = useForm<Contact>({
   validationSchema: schema,
 });
 
