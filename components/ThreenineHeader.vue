@@ -30,7 +30,7 @@
                       <div class="flex md:h-full lg:flex-col">
                         <div class="flex-shrink-0">
                           <span class="inline-flex items-center justify-center h-10 w-10 rounded-md  text-white sm:h-12 sm:w-12">
-                          <img class="rounded-lg object-cover object-center shadow-lg" :src="item.productImage.url"
+                          <nuxt-img class="rounded-lg object-cover object-center shadow-lg" :src="item.productImage.url"
                                :alt="item.title" />
                           </span>
                         </div>
@@ -131,7 +131,7 @@
                   <a v-for="item in products" :key="item.title" :href="item._path" class="-m-3 flex items-center p-3 rounded-lg hover:bg-gray-50">
                     <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md sm:h-12 sm:w-12">
                        <span class="inline-flex items-center justify-center h-10 w-10 rounded-md  text-white sm:h-12 sm:w-12">
-                          <img class="rounded-lg object-cover object-center shadow-lg" :src="item.productImage.url"
+                          <nuxt-img class="rounded-lg object-cover object-center shadow-lg" :src="item.productImage.url"
                                :alt="item.title" />
                           </span>
                     </div>
@@ -156,12 +156,7 @@
 import { Popover, PopoverButton, PopoverGroup, PopoverPanel } from '@headlessui/vue'
 import {
   Bars3Icon,
-
-  InformationCircleIcon,
-
   PhoneIcon,
-
-  ShieldCheckIcon,
   XMarkIcon,
 } from '@heroicons/vue/24/outline/index'
 import { ChevronDownIcon } from '@heroicons/vue/20/solid/index'
