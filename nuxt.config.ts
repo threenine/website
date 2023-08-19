@@ -1,20 +1,13 @@
 import { defineNuxtConfig } from 'nuxt/config'
 import Icons from 'unplugin-icons/vite'
 export default defineNuxtConfig({
-    css: ['~/assets/css/main.css'],
-    postcss: {
-        plugins: {
-            tailwindcss: {},
-            autoprefixer: {},
-        },
-    },
-    image: {
+     image: {
         provider: 'cloudinary',
         cloudinary: {
             baseURL: 'https://res.cloudinary.com/threenine-co-uk/image/upload/'
         }
     },
-    modules: ['nuxt-schema-org', '@nuxtjs/tailwindcss', '@nuxt/content',  '@nuxt/image', 'nuxt-icon',],
+    modules: ['nuxt-schema-org', '@nuxtjs/tailwindcss', '@nuxt/content',  '@nuxt/image', 'nuxt-icon'],
     runtimeConfig: {
         public: {
             fathom_analytics_id: process.env.fathom_analytics_id,

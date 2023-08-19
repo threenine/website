@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "@headlessui/tailwindcss": "^0.2.0",
     "@headlessui/vue": "^1.7.13",
     "@heroicons/vue": "^2.0.18",
     "@nuxt/image": "^1.0.0-rc.1",
