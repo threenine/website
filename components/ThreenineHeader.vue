@@ -12,7 +12,7 @@
         <div class="-mr-2 -my-2 md:hidden">
           <PopoverButton class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-orange-500">
             <span class="sr-only">Open menu</span>
-            <Bars3Icon class="h-6 w-6" aria-hidden="true" />
+            <Icon name="heroicons-solid:bars-3" class="h-6 w-6" aria-hidden="true" />
           </PopoverButton>
         </div>
         <div class="hidden md:flex-1 md:flex md:items-center md:justify-between">
@@ -52,7 +52,7 @@
                     <div class="max-w-7xl mx-auto space-y-6 px-4 py-5 sm:flex sm:space-y-0 sm:space-x-10 sm:px-6 lg:px-8">
                       <div v-for="item in callsToAction" :key="item.name" class="flow-root">
                         <a :href="item.href" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100">
-                          <component :is="item.icon" class="flex-shrink-0 h-6 w-6 text-gray-400" aria-hidden="true" />
+                          <Icon  :name="item.icon" class="flex-shrink-0 h-6 w-6 text-gray-400" aria-hidden="true" />
                           <span class="ml-3">{{ item.value }}</span>
                         </a>
                       </div>
@@ -64,7 +64,7 @@
             <Popover v-slot="{ open }">
               <PopoverButton :class="[open ? 'text-gray-900' : 'text-gray-500', 'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500']">
                 <span>Services</span>
-                <ChevronDownIcon :class="[open ? 'text-gray-600' : 'text-gray-400', 'ml-2 h-5 w-5 group-hover:text-gray-500']" aria-hidden="true" />
+                <Icon name="heroicons-outline:chevron-down" :class="[open ? 'text-gray-600' : 'text-gray-400', 'ml-2 h-5 w-5 group-hover:text-gray-500']" aria-hidden="true" />
               </PopoverButton>
 
               <transition enter-active-class="transition ease-out duration-200" enter-from-class="opacity-0 -translate-y-1" enter-to-class="opacity-100 translate-y-0" leave-active-class="transition ease-in duration-150" leave-from-class="opacity-100 translate-y-0" leave-to-class="opacity-0 -translate-y-1">
@@ -96,7 +96,7 @@
                     <div class="max-w-7xl mx-auto space-y-6 px-4 py-5 sm:flex sm:space-y-0 sm:space-x-10 sm:px-6 lg:px-8">
                       <div v-for="item in callsToAction" :key="item.name" class="flow-root">
                         <a :href="item.href" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100">
-                          <component :is="item.icon" class="flex-shrink-0 h-6 w-6 text-gray-400" aria-hidden="true" />
+                          <Icon :name="item.icon" class="flex-shrink-0 h-6 w-6 text-gray-400" aria-hidden="true" />
                           <span class="ml-3">{{ item.value }}</span>
                         </a>
                       </div>
@@ -123,7 +123,6 @@
                   <span class="sr-only">Close menu</span>
                   <XMarkIcon class="h-6 w-6" aria-hidden="true" />
                 </PopoverButton>
-              </div>
             </div>
             <div class="mt-6 sm:mt-8">
               <nav>
@@ -147,6 +146,7 @@
             </div>
           </div>
         </div>
+        </div>
       </PopoverPanel>
     </transition>
   </Popover>
@@ -155,7 +155,6 @@
 <script setup lang="ts">
 import { Popover, PopoverButton, PopoverGroup, PopoverPanel } from '@headlessui/vue'
 import {
-  Bars3Icon,
   PhoneIcon,
   XMarkIcon,
 } from '@heroicons/vue/24/outline/index'
@@ -170,7 +169,7 @@ const services =  await queryContent("services")
     .find()
 
 const callsToAction = [
-  { name: 'Contact', href: 'tel:+44-116-318-3635', value: '+44 116 318 3635' , icon: PhoneIcon },
+  { name: 'Contact', href: 'tel:+44-116-318-3635', value: '+44 116 318 3635' , icon: 'heroicons-outline:phone' },
 ]
 
 

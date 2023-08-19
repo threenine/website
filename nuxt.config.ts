@@ -14,7 +14,7 @@ export default defineNuxtConfig({
             baseURL: 'https://res.cloudinary.com/threenine-co-uk/image/upload/'
         }
     },
-    modules: ['nuxt-schema-org', '@nuxtjs/tailwindcss', '@nuxt/content',  '@nuxt/image'],
+    modules: ['nuxt-schema-org', '@nuxtjs/tailwindcss', '@nuxt/content',  '@nuxt/image', 'nuxt-icon',],
     runtimeConfig: {
         public: {
             fathom_analytics_id: process.env.fathom_analytics_id,
