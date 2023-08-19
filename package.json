@@ -8,10 +8,6 @@
     "test": "vitest run --coverage"
   },
   "devDependencies": {
-    "@iconify-json/fa6-solid": "^1.1.13",
-    "@iconify-json/material-symbols": "^1.1.13",
-    "@iconify-json/ri": "^1.1.4",
-    "@iconify-json/simple-icons": "^1.1.50",
     "@nuxt/content": "^2.7.2",
     "@nuxt/ui": "latest",
     "@nuxtjs/tailwindcss": "^6.6.6",
@@ -19,14 +15,12 @@
     "nuxt": "^3.6.2",
     "nuxt-icon": "^0.5.0",
     "postcss": "^8.4.27",
-    "sitemap": "^7.1.1",
-    "unplugin-icons": "^0.14.14"
+    "sitemap": "^7.1.1"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@headlessui/tailwindcss": "^0.2.0",
     "@headlessui/vue": "^1.7.13",
-    "@heroicons/vue": "^2.0.18",
     "@nuxt/image": "^1.0.0-rc.1",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.3",

@@ -1,5 +1,4 @@
 import { defineNuxtConfig } from 'nuxt/config'
-import Icons from 'unplugin-icons/vite'
 export default defineNuxtConfig({
      image: {
         provider: 'cloudinary',
@@ -25,14 +24,5 @@ export default defineNuxtConfig({
     tailwindcss: {
         cssPath: '~/assets/css/main.css',
         configPath: 'tailwind.config',
-    },
-    vite: {
-        plugins: [
-            Icons({
-                // the feature below is experimental ⬇️
-                autoInstall: true
-            })
-        ]
     }
-
 })

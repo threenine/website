@@ -15,7 +15,7 @@
           <div class="justify-stretch mt-6 flex flex-col space-y-3 sm:flex-row sm:space-y-0 sm:space-x-4">
              <button type="button" class="inline-flex justify-center rounded-md border border-gray-300 bg-white px-4 py-2
              text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2">
-              <PhoneIcon class="-ml-1 mr-2 h-5 w-5 text-gray-400" aria-hidden="true" />
+              <Icon name="heroicons-outline:phone" class="-ml-1 mr-2 h-5 w-5 text-gray-400" aria-hidden="true" />
               <span>+44 116 318 3635</span>
             </button>
           </div>
@@ -29,9 +29,9 @@
 </template>
 
 <script lang="ts" setup>
-import {  PhoneIcon } from '@heroicons/vue/20/solid'
+
 import {PropType} from "@vue/runtime-core";
-import {ContentLink} from "~/types/ContentLink";
+
 
 defineProps({
   banner: {
