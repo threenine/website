@@ -16,7 +16,7 @@
             <Icon name="fa6-brands:rust" class="h-12 w-12 text-orange-500" alt="Rust" />
           </div>
           <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-            <Icon class="h-12 w-12 text-orange-500" name="ion:logo-docker" alt="Docker" />
+            <Icon class="h-12 w-12 text-orange-500" name="fa6-brands:digital-ocean" alt="Digital Ocean" />
           </div>
           <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
             <Icon class="h-12 w-12 text-orange-500"  name="uil:linux"  alt="Linux Specialists" />
