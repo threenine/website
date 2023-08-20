@@ -17,25 +17,8 @@ useHead({
 </script>
 
 <template>
-  <div>
-    <nuxt-layout name="product">
-      <template #productTitle>
-
-          <product-title :title="product?.title"/>
-
-      </template>
-
-      <template #productLinks>
-
-          <right-side :github="product?.links.github" :image="product?.productImage" :nuget="product?.links.nuget"
-                      :website="product?.links.website"></right-side>
-
-      </template>
-      <template #description>
-
-          <content-renderer :value="product"/>
-
-      </template>
-    </nuxt-layout>
+  <div class="overflow-hidden">
+    <content-renderer :value="product" />
   </div>
+
 </template>

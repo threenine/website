@@ -13,6 +13,7 @@
     "@nuxtjs/tailwindcss": "^6.6.6",
     "autoprefixer": "^10.4.14",
     "nuxt": "^3.6.2",
+    "nuxt-headlessui": "^1.1.4",
     "nuxt-icon": "^0.5.0",
     "postcss": "^8.4.27",
     "sitemap": "^7.1.1"
