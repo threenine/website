@@ -24,21 +24,21 @@
             <div class="flex gap-x-4">
               <dt class="flex-none">
                 <span class="sr-only">Address</span>
-                <BuildingOffice2Icon class="h-7 w-6 text-gray-400" aria-hidden="true" />
+                <Icon name="heroicons-outline:building-office" class="h-7 w-6 text-gray-400" aria-hidden="true" />
               </dt>
               <dd>99 Wey Hill<br />Haslemere, Surrey, GU27 1HT</dd>
             </div>
             <div class="flex gap-x-4">
               <dt class="flex-none">
                 <span class="sr-only">Telephone</span>
-                <PhoneIcon class="h-7 w-6 text-gray-400" aria-hidden="true" />
+                <Icon name="heroicons-outline:device-phone-mobile" class="h-7 w-6 text-gray-400" aria-hidden="true" />
               </dt>
               <dd><a class="hover:text-gray-900" href="tel:+44 116 318 3635">+44 116 318 3635</a></dd>
             </div>
             <div class="flex gap-x-4">
               <dt class="flex-none">
                 <span class="sr-only">Email</span>
-                <EnvelopeIcon class="h-7 w-6 text-gray-400" aria-hidden="true" />
+                <Icon name="heroicons-outline:envelope" class="h-7 w-6 text-gray-400" aria-hidden="true" />
               </dt>
               <dd><a class="hover:text-gray-900" href="mailto:hello@threenine.co.uk">hello@threenine.co.uk</a></dd>
             </div>
@@ -51,7 +51,7 @@
 </template>
 
 <script setup>
-import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/vue/24/outline'
+
 useHead({
       title: "Contact | threenine.co.uk",
 
