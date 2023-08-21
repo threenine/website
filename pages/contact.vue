@@ -57,7 +57,7 @@ useHead({
 
       meta: [
         { name: "og:title", content: "Contact | threenine.co.uk" },
-        {name: "description", content: "Make contact with threenine.co.uk specialist API Developers"}
+        { name: "description", content: "Make contact with threenine.co.uk specialist API Developers" }
       ]
     },
 
