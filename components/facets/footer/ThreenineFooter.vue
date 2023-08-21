@@ -80,7 +80,7 @@ const navigation = {
   social: [
     {
       name: 'Twitter',
-      href: 'https://twitter.com/threenineuk',
+      href: 'https://twitter.com/threenine39',
       icon:'fa6-brands:x-twitter'
     },
     {
