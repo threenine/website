@@ -1,12 +1,12 @@
 <template>
-  <footer class="bg-gray-600" aria-labelledby="footer-heading">
+  <footer class="bg-gray-800" aria-labelledby="footer-heading">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div class="space-y-8">
           <nuxt-img class="h-16" provider="cloudinary" src="/v1690791866/brand/main-logo-header-light_qlosel.png" alt="threenine.co.uk - " />
           <div class="flex space-x-6">
-            <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-gray-500 hover:text-gray-400">
+            <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-gray-200 hover:text-gray-400">
               <span class="sr-only">{{ item.name }}</span>
               <Icon :name="item.icon" class="h-6 w-6" aria-hidden="true" />
             </a>
@@ -86,7 +86,7 @@ const navigation = {
     {
       name: 'GitHub',
       href: 'https://github.com/threenine',
-      icon:'logos:github-icon',
+      icon:'radix-icons:github-logo',
     },
     {
       name: 'YouTube',
