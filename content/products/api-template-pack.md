@@ -40,8 +40,9 @@ image:
  Free Open Source tools and utilities to help **C# Dotnet developers**  quickly and efficiently develop
 _secure, stable, and resilient REST APIs_, based on the open standards for APIs utilising _OpenAPI and JSON Schema_.
 ::
+::here-to-help
 
-
+::
 
 
 
