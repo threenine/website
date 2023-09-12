@@ -46,7 +46,7 @@ useSchemaOrg([
         <div class="px-9 pt-10 pb-14 bg-orange-500 rounded-b-lg">
           <div class="text-white space-y-4">
             <h3 class="text-xl font-bold lead-xl bold">Ubuntu Command Reference</h3>
-            <div class="text-lg font-light">A comprehensive list of the most commonly used ubuntu commands</div>
+            <div class="text-lg font-light">A list of the most commonly used Ubuntu commands</div>
           </div>
           <div class="flex justify-between pt-8">
             <ul class="flex flex-col gap-y-2.5">
