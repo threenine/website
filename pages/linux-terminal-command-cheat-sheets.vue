@@ -64,7 +64,7 @@ useSchemaOrg([
               </li>
             </ul>
             <div class="flex flex-col justify-end">
-              <a href="#" class="py-3 px-6 bg-white text-primary-200 paragraph-m  rounded-full">Download</a>
+              <a href="https://garywoodfine.com/wp-content/uploads/2016/08/Ubuntu-Reference.pdf" class="py-3 px-6 bg-white text-primary-200 paragraph-m  rounded-full">Download</a>
             </div>
           </div>
         </div>
@@ -92,7 +92,7 @@ useSchemaOrg([
               </li>
             </ul>
             <div class="flex flex-col justify-end">
-              <a href="#" class="py-3 px-6 bg-white text-primary-200 paragraph-m  rounded-full">Download</a>
+              <a href="https://garywoodfine.com/wp-content/uploads/2022/08/Linux-Reference.pdf" class="py-3 px-6 bg-white text-primary-200 paragraph-m  rounded-full">Download</a>
             </div>
           </div>
         </div>
