@@ -64,12 +64,12 @@ useSchemaOrg([
               </li>
             </ul>
             <div class="flex flex-col justify-end">
-              <a href="https://garywoodfine.com/wp-content/uploads/2016/08/Ubuntu-Reference.pdf" class="py-3 px-6 bg-white text-primary-200 paragraph-m  rounded-full">Download</a>
+              <a href="https://garywoodfine.com/wp-content/uploads/2016/08/Ubuntu-Reference.pdf" class="py-3 px-6 bg-white text-primary-200 paragraph-m  rounded-full"><Icon name="ph:download-fill" class="h-4 w-4 mr-2" /> Download</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="">
+      <div>
         <nuxt-img  provider="cloudinary" src="/v1694546084/linux-snap_faxvzl.png" alt="Featured Image 1" class="rounded-t-xl"/>
         <div class="px-9 pt-10 pb-14 bg-gray-600 rounded-b-lg">
           <div class="text-white space-y-4">
@@ -92,7 +92,7 @@ useSchemaOrg([
               </li>
             </ul>
             <div class="flex flex-col justify-end">
-              <a href="https://garywoodfine.com/wp-content/uploads/2022/08/Linux-Reference.pdf" class="py-3 px-6 bg-white text-primary-200 paragraph-m  rounded-full">Download</a>
+              <a href="https://garywoodfine.com/wp-content/uploads/2022/08/Linux-Reference.pdf" class="py-3 px-6 bg-white text-primary-200 paragraph-m  rounded-full"><Icon name="ph:download-fill" class="h-4 w-4 mr-2" />Download</a>
             </div>
           </div>
         </div>
