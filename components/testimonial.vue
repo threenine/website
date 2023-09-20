@@ -4,7 +4,7 @@
   <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
     <!-- Testimonial card-->
     <div class="relative overflow-hidden rounded-2xl pt-64 pb-10 shadow-xl">
-      <img class="absolute inset-0 h-full w-full" src="~/assets/img/warehouse_7.jpg" />
+      <img class="absolute inset-0 h-full w-full" src="~/assets/img/software-development.jpg" />
       <div class="absolute inset-0 bg-orange-500 mix-blend-multiply" />
       <div class="absolute inset-0 bg-gradient-to-t from-orange-600 via-orange-600 opacity-90" />
       <div class="relative px-8">
