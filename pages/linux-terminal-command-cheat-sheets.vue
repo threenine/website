@@ -32,7 +32,7 @@ useSchemaOrg([
 </script>
 
 <template>
-  <!-- component -->
+<div class="w-full">
   <div class="flex flex-col bg-white py-4 px-12">
     <div class="py-4">
       <div class="pl-[116px] pr-[205px] py-8">
@@ -64,7 +64,7 @@ useSchemaOrg([
               </li>
             </ul>
             <div class="flex flex-col justify-end">
-              <a href="https://garywoodfine.com/wp-content/uploads/2016/08/Ubuntu-Reference.pdf" class="py-3 px-6 bg-white text-primary-200 paragraph-m  rounded-full"><Icon name="ph:download-fill" class="h-4 w-4 mr-2" /> Download</a>
+              <a href="/docs/ubuntu-reference.pdf" class="py-3 px-6 bg-white text-primary-200 paragraph-m  rounded-full"><Icon name="ph:download-fill" class="h-4 w-4 mr-2" /> Download</a>
             </div>
           </div>
         </div>
@@ -92,13 +92,16 @@ useSchemaOrg([
               </li>
             </ul>
             <div class="flex flex-col justify-end">
-              <a href="https://garywoodfine.com/wp-content/uploads/2022/08/Linux-Reference.pdf" class="py-3 px-6 bg-white text-primary-200 paragraph-m  rounded-full"><Icon name="ph:download-fill" class="h-4 w-4 mr-2" />Download</a>
+              <a href="/docs/linux-reference.pdf" class="py-3 px-6 bg-white text-primary-200 paragraph-m  rounded-full"><Icon name="ph:download-fill" class="h-4 w-4 mr-2" />Download</a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+  <here-to-help/>
+</div>
 </template>
 
 <style scoped></style>
