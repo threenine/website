@@ -42,7 +42,7 @@ useSchemaOrg([
     </div>
     <div class="flex flex-col px-20 md:px-10 md:flex-row items-center justify-center gap-6">
       <div>
-        <nuxt-img  provider="cloudinary" src="/v1694546097/ubuntu-snap_n1bd3e.png" alt="Featured Image 1" class="rounded-t-xl"/>
+        <nuxt-img  provider="cloudinary" src="/v1694546097/ubuntu-cheat-sheet-snap_kmxdaj.png" alt="Featured Image 1" class="rounded-t-xl"/>
         <div class="px-9 pt-10 pb-14 bg-orange-500 rounded-b-lg">
           <div class="text-white space-y-4">
             <h3 class="text-xl font-bold lead-xl bold">Ubuntu Command Reference</h3>
@@ -70,7 +70,7 @@ useSchemaOrg([
         </div>
       </div>
       <div>
-        <nuxt-img  provider="cloudinary" src="/v1694546084/linux-snap_faxvzl.png" alt="Featured Image 1" class="rounded-t-xl"/>
+        <nuxt-img  provider="cloudinary" src="/v1694546084/linux-cheat-sheet-snap_xsgzag.png" alt="Featured Image 1" class="rounded-t-xl"/>
         <div class="px-9 pt-10 pb-14 bg-gray-600 rounded-b-lg">
           <div class="text-white space-y-4">
             <h3 class="text-xl font-bold lead-xl bold">Linux Command reference</h3>
