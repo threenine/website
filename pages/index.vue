@@ -16,7 +16,7 @@
             <rect width="404" height="392" fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)" />
           </svg>
         </div>
-<testimonial/>
+        <testimonial/>
       </div>
 
       <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
@@ -25,13 +25,13 @@
           <h2 class="text-3xl font-bold tracking-tight text-orange-500 sm:text-4xl">Empowering Software Teams</h2>
           <div class="mt-6 space-y-6 text-gray-500">
             <p class="text-lg">we work with clients throughout Western Europe and Northern America to help solve their most critical information, technology, and business challenges.</p>
-            <p class="text-base leading-7"> Given the accelerated pace at which new technologies emerge and the specialized and evolving needs of our clients, it’s essential that Threeenine professionals work with today’s leading technologies to amplify the value we provide to our clients. </p>
-            <p class="text-base leading-7">We are proud to offer products, solutions and services that leverage our expertise in REST API.</p>
+            <p class="text-base leading-7"> Given the accelerated pace at which new technologies emerge and the specialized and evolving needs of our clients, it’s essential that Threenine professionals work with today’s leading technologies to amplify the value we provide to our clients. </p>
+            <p class="text-base leading-7">We are proud to offer products, solutions and services that leverage our expertise in web based software development.</p>
           </div>
         </div>
       </div>
     </div>
-    <services/>
+
     <skill-cloud />
 
   </div>
