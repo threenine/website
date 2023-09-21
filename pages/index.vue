@@ -26,7 +26,7 @@
           <div class="mt-6 space-y-6 text-gray-500">
             <p class="text-lg">we work with clients throughout Western Europe and Northern America to help solve their most critical information, technology, and business challenges.</p>
             <p class="text-base leading-7"> Given the accelerated pace at which new technologies emerge and the specialized and evolving needs of our clients, it’s essential that Threenine professionals work with today’s leading technologies to amplify the value we provide to our clients. </p>
-            <p class="text-base leading-7">We are proud to offer products, solutions and services that leverage our expertise in web based software development.</p>
+            <p class="text-base leading-7">We offer products, solutions and services that leverage our expertise in web based software development, to help your organisation to take advantage of opportunities these markets enable.</p>
           </div>
         </div>
       </div>
@@ -39,7 +39,7 @@
 </template>
 
 <script lang="ts" setup>
-import Services from "~/components/Services.vue";
+import Services from "~/components/services.vue";
 
 useHead({
   title: "Cultivate, Develop & Sustain Innovation",

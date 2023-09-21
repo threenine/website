@@ -4,7 +4,12 @@ const skills = [
   {name: 'C# Microsoft .net', icon: 'mdi:language-csharp'},
   {name: 'Rust', icon: 'fa6-brands:rust'},
   {name: 'Digital Ocean', icon: 'fa6-brands:digital-ocean'},
-  {name: 'Linux', icon: 'uil:linux'}
+  {name: 'Aws', icon: 'mdi:aws'},
+  {name: 'Azure', icon: 'devicon-plain:azure'},
+  {name: 'nodejs', icon: 'mdi:nodejs'},
+  {name: 'TypeScript', icon: 'teenyicons:typescript-outline'},
+  {name: 'dotnet', icon: 'devicon-plain:dotnetcore'},
+  { name: 'Linux', icon: 'uil:linux'}
 ]
 </script>
 <template>
