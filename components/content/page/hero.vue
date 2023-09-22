@@ -10,6 +10,10 @@ const props = defineProps({
     type: String,
     required: true
   },
+  description: {
+    type: String,
+    required: true
+  },
   image: {
     type: String,
     required: true
@@ -35,7 +39,8 @@ let title = props.title as String;
         <h1 class="max-w-2xl text-4xl font-bold tracking-tight text-orange-500 sm:text-6xl lg:col-span-2 xl:col-auto">
           {{ title }}</h1>
         <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
-          <p class="text-xl leading-8 text-gray-600">{{ summary }}</p>
+          <p class="text-2xl font-semibold leading-8 text-gray-600 mb-2">{{ summary }}</p>
+          <p class="text-2xl leading-8 text-gray-600">{{ description }}</p>
           <div class="mt-10 flex items-center gap-x-6">
             <a href="https://threenine.co.uk/contact" target="_blank" class="bg-orange-500 hover:bg-orange-400 text-gray-100 font-bold text-xl py-6 px-6 rounded inline-flex items-center">
               <Icon name="mdi:chat" class="fill-current w-8 h-8 mr-2" />
