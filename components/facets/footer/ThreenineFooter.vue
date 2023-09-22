@@ -4,7 +4,7 @@
     <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div class="space-y-8">
-          <nuxt-img class="h-16" provider="cloudinary" src="/v1690791866/brand/main-logo-header-light_qlosel.png" alt="threenine.co.uk - UK based software development consultancy" />
+          <nuxt-img class="h-16" provider="cloudinary" src="/v1690791866/brand/main-logo-header-light_qlosel.png" alt="threenine.co.uk - UK based software development consultancy" title="threenine.co.uk - UK based software development consultancy" />
           <div class="flex space-x-6">
             <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-gray-200 hover:text-gray-400" :aria-label="item.name" :title="item.name">
               <span class="sr-only">{{ item.name }}</span>
