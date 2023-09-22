@@ -24,7 +24,7 @@ const props = defineProps({
   }
 
 })
-let title = props.title;
+let title = props.title as String;
 </script>
 
 <template>
@@ -37,11 +37,14 @@ let title = props.title;
         <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
           <p class="text-xl leading-8 text-gray-600">{{ summary }}</p>
           <div class="mt-10 flex items-center gap-x-6">
-            <a :href="start" class="rounded-md bg-orange-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600">Get started</a>
-            <a :href="learn" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
+            <a href="https://threenine.co.uk/contact" target="_blank" class="bg-orange-500 hover:bg-orange-400 text-gray-100 font-bold text-xl py-6 px-6 rounded inline-flex items-center">
+              <Icon name="mdi:chat" class="fill-current w-8 h-8 mr-2" />
+              <span>Talk to us about your project</span>
+            </a>
+            <a :href="learn" class="text-xl font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
           </div>
         </div>
-        <nuxt-img :src="image" alt="" class="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36" />
+        <nuxt-img :src="image" :alt="title" class="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36" />
       </div>
     </div>
     <div class="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-white sm:h-32" />
