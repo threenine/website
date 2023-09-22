@@ -4,9 +4,9 @@
     <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div class="space-y-8">
-          <nuxt-img class="h-16" provider="cloudinary" src="/v1690791866/brand/main-logo-header-light_qlosel.png" alt="threenine.co.uk - " />
+          <nuxt-img class="h-16" provider="cloudinary" src="/v1690791866/brand/main-logo-header-light_qlosel.png" alt="threenine.co.uk - UK based software development consultancy" />
           <div class="flex space-x-6">
-            <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-gray-200 hover:text-gray-400">
+            <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-gray-200 hover:text-gray-400" :aria-label="item.name" :title="item.name">
               <span class="sr-only">{{ item.name }}</span>
               <Icon :name="item.icon" class="h-6 w-6" aria-hidden="true" />
             </a>
@@ -92,6 +92,11 @@ const navigation = {
       name: 'YouTube',
       href: 'https://www.youtube.com/@ThreenineCoUk',
       icon: 'ion:social-youtube-outline',
+    },
+    {
+      name: 'rss',
+      href: 'https://threenine.blog/rss',
+      icon: 'jam:rss-feed',
     },
   ],
 }
