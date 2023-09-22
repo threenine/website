@@ -1,6 +1,5 @@
 <script lang="ts" setup>
-import RightSide from "~/components/products/microbes/RightSide.vue";
-import ProductTitle from "~/components/products/microbes/productTitle.vue";
+
 
 const route = useRoute()
 const {data: product } = await useAsyncData('product', () => queryContent('/products').where({_path: route.path}) .findOne())

@@ -92,3 +92,14 @@ collections:
             fields:
                - {label: "Firstname", name: "firstName", widget: "string", required: true}
                - {label: "Lastname", name: "lastName", widget: "string", required: true}
+    - name: "company"
+      label: "Pages"
+      folder: "content/company"
+      create: true
+      slug: "{{slug}}"
+      format: 'frontmatter'
+      identifier_field: "title"
+      fields:
+        - { label: "Title", name: "title", widget: "string", required: true }
+        - { label: "Description", name: "description", widget: "string", required: true }
+        - { label: "Summary" , name: "summary", widget: "string" }
