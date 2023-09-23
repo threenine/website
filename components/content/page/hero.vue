@@ -32,7 +32,7 @@ let title = props.title as String;
 </script>
 
 <template>
-  <div class="relative isolate overflow-hidden bg-gradient-to-b from-orange-100/20 pt-14">
+  <div class="relative isolate overflow-hidden bg-gradient-to-b from-orange-50/20 pt-14">
     <div class="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-orange-600/10 ring-1 ring-orange-50 sm:-mr-80 lg:-mr-96" aria-hidden="true" />
     <div class="mx-auto max-w-7xl px-6 py-32 sm:py-40 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
@@ -40,7 +40,7 @@ let title = props.title as String;
           {{ title }}</h1>
         <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
           <p class="text-2xl font-semibold leading-8 text-gray-600 mb-2">{{ summary }}</p>
-          <p class="text-2xl leading-8 text-gray-600">{{ description }}</p>
+          <p class="text-xl leading-8 text-gray-600">{{ description }}</p>
           <div class="mt-10 flex items-center gap-x-6">
             <a href="https://threenine.co.uk/contact" target="_blank" class="bg-orange-500 hover:bg-orange-400 text-gray-100 font-bold text-xl py-6 px-6 rounded inline-flex items-center">
               <Icon name="mdi:chat" class="fill-current w-8 h-8 mr-2" />
