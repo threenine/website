@@ -10,7 +10,7 @@ const features = [
         icon: 'cil:education',
       },
       {
-        name: 'SSL certificates',
+        name: 'strive for sustainability',
         description:
             'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
         icon: 'material-symbols:breastfeeding',
@@ -35,14 +35,14 @@ const features = [
       <div class="mx-auto max-w-2xl lg:text-center">
 
         <p class="mt-2 text-lg font-semibold tracking-tight text-orange-400 sm:text-xl">Our Mission</p>
-        <p class="mt-6 text-4xl leading-8 font-extrabold text-orange-500">Drive the change you want to see in the world!</p>
+        <p class="mt-6 text-4xl leading-8 font-extrabold text-orange-500">Develop the change you want to see in the world!</p>
       </div>
       <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
         <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
           <div v-for="feature in features" :key="feature.name" class="relative pl-16">
             <dt class="text-base font-semibold leading-7 text-gray-900">
-              <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-orange-500">
-                <Icon :name="feature.icon" class="h-6 w-6 text-white" aria-hidden="true" />
+              <div class="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-lg bg-orange-500 mr-2">
+                <Icon :name="feature.icon" class="h-10 w-10 text-white" aria-hidden="true" />
               </div>
               {{ feature.name }}
             </dt>
