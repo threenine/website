@@ -6,26 +6,26 @@ const features = [
       {
         name: 'Continuous Learning',
         description:
-            'To innovate, to try a new process, or to do something new all requires learning',
+            'To innovate, to try a new process, or to do something new all requires learning. All our activities are focused on learning, teaching, sharing and supporting technology for the benefit of all.',
         icon: 'cil:education',
       },
       {
-        name: 'strive for sustainability',
+        name: 'Strive for sustainability',
         description:
-            'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
-        icon: 'material-symbols:breastfeeding',
+            'Code has an impact on the environment, we aim to produce algorithms that have minimal energy consumption as much as possible.',
+        icon: 'carbon:sustainability',
       },
       {
-        name: 'Simple queues',
+        name: 'Bitcoin',
         description:
-            'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
-        icon: 'material-symbols:breastfeeding',
+            'We believe that Bitcoin and its ecosystem will be the change for good for humanity, with continued support, education and focus we aim to help drive the adoption and integration of this nascent technology for all',
+        icon: 'bxl:bitcoin',
       },
       {
-        name: 'Advanced security',
+        name: 'Privacy and Security',
         description:
-            'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
-        icon: 'material-symbols:breastfeeding',
+            'We believe big corporations, states and technology giants are over stepping the mark and beyond when it comes to data collection and surveillance ',
+        icon: 'material-symbols:privacy-tip-outline-rounded',
       },
     ]
 </script>
@@ -33,9 +33,11 @@ const features = [
   <div class="bg-orange-50 py-24 sm:py-32 rounded-2xl">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:text-center">
-
         <p class="mt-2 text-lg font-semibold tracking-tight text-orange-400 sm:text-xl">Our Mission</p>
-        <p class="mt-6 text-4xl leading-8 font-extrabold text-orange-500">Develop the change you want to see in the world!</p>
+
+      </div>
+      <div class="max-w-full text-center">
+        <p class="mt-6 text-4xl leading-8 font-extrabold text-orange-500">Develop the change we want to see in the world!</p>
       </div>
       <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
         <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
