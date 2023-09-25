@@ -12,7 +12,7 @@ const features = [
       {
         name: 'Strive for sustainability',
         description:
-            'Code has an impact on the environment, we aim to produce algorithms that have minimal energy consumption as much as possible.',
+            'Code has an environmental impact environment, we will always aim to make positive and beneficial contributions to help minimise negative impacts.',
         icon: 'carbon:sustainability',
       },
       {
