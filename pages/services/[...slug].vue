@@ -13,6 +13,12 @@ useHead({
   meta: [
       {name: 'og:title', content: `${service.value?.title} - threenine.co.uk`},
       {name: 'og:description', content: `${service.value?.description}`},
+  ],
+  link: [
+    {
+      rel: 'canonical',
+      href: 'https://threenine.co.uk' + route.path
+    }
   ]
 })
 </script>

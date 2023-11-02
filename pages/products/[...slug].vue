@@ -9,6 +9,12 @@ useHead({
   meta: [
     {name: 'og:title', content: `${product.value?.title} - threenine.co.uk`},
     {name: 'og:description', content: `${product.value?.description}`},
+  ],
+  link: [
+    {
+      rel: 'canonical',
+      href: 'https://threenine.co.uk' + route.path
+    }
   ]
 })
 
