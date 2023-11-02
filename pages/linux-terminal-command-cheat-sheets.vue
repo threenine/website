@@ -4,7 +4,13 @@ const route = useRoute()
 useHead({
   title: 'Linux command cheat sheets - threenine.co.uk',
   meta: [{ name: 'og:title', content: 'Linux command cheat sheets - threenine.co.uk'
-  }]
+  }],
+  link: [
+    {
+      rel: 'canonical',
+      href: 'https://threenine.co.uk' + route.path
+    }
+  ]
 })
 useSchemaOrg([
   defineWebSite({
