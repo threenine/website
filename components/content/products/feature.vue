@@ -52,7 +52,7 @@ let nuget = props.nuget as ContentLink
             <figure>
               <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
                 <nuxt-img class="rounded-lg object-cover object-center shadow-lg" :src="image.url"
-                          :alt="image.title"/>
+                          :alt="image.title" width="400" height="400"/>
               </div>
               <figcaption class="mt-3 flex text-sm  text-orange-500 hover:text-orange-400">
                 <div class="md:flex-none flex-1" >
